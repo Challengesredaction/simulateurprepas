@@ -278,33 +278,66 @@
                   </p>
                   
                   {step > 1 && (
-                    <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-gray-500">
-                      {selections.projet && (
-                        <>
-                          <span className="font-medium text-red-600">
-                            {projetOptions.find(p => p.id === selections.projet)?.label}
-                          </span>
-                          <ChevronRightIcon />
-                        </>
-                      )}
-                      {selections.filiere && (
-                        <>
-                          <span className="font-medium text-red-600">{selections.filiere}</span>
-                          <ChevronRightIcon />
-                        </>
-                      )}
-                      {selections.top && (
-                        <>
-                          <span className="font-medium text-red-600">{selections.top}</span>
-                          <ChevronRightIcon />
-                        </>
-                      )}
-                      {selections.region && (
-                        <span className="font-medium text-red-600">{selections.region}</span>
-                      )}
-                    </div>
-                  )}
-                </div>
+  <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-gray-500">
+    {selections.projet && (
+      <>
+        <button 
+          onClick={() => {
+            setSelections({ projet: null, filiere: null, top: null, region: null });
+            setStep(1);
+            setRecommendations([]);
+          }}
+          className="font-medium text-indigo-600 hover:text-indigo-800 hover:underline cursor-pointer"
+        >
+          {projetOptions.find(p => p.id === selections.projet)?.label}
+        </button>
+        <ChevronRightIcon />
+      </>
+    )}
+    {selections.filiere && (
+      <>
+        <button 
+          onClick={() => {
+            setSelections(prev => ({ ...prev, filiere: null, top: null, region: null }));
+            setStep(2);
+            setRecommendations([]);
+          }}
+          className="font-medium text-indigo-600 hover:text-indigo-800 hover:underline cursor-pointer"
+        >
+          {selections.filiere}
+        </button>
+        <ChevronRightIcon />
+      </>
+    )}
+    {selections.top && (
+      <>
+        <button 
+          onClick={() => {
+            setSelections(prev => ({ ...prev, top: null, region: null }));
+            setStep(3);
+            setRecommendations([]);
+          }}
+          className="font-medium text-indigo-600 hover:text-indigo-800 hover:underline cursor-pointer"
+        >
+          {selections.top}
+        </button>
+        <ChevronRightIcon />
+      </>
+    )}
+    {selections.region && (
+      <button 
+        onClick={() => {
+          setSelections(prev => ({ ...prev, region: null }));
+          setStep(4);
+          setRecommendations([]);
+        }}
+        className="font-medium text-indigo-600 hover:text-indigo-800 hover:underline cursor-pointer"
+      >
+        {selections.region}
+      </button>
+    )}
+  </div>
+)}
 
                 {/* Step 1: Choix du projet */}
                 {step === 1 && (
