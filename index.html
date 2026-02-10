@@ -253,7 +253,7 @@
 
           if (loading) {
             return (
-              <div className="min-h-screen bg-gradient-to-br from-blue-50 to-red-100 flex items-center justify-center p-4">
+              <div className="min-h-screen bg-gradient-to-br from-red-50 to-red-100 flex items-center justify-center p-4">
                 <div className="bg-white rounded-2xl shadow-xl p-8 text-center">
                   <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mx-auto mb-4"></div>
                   <p className="text-gray-600">Chargement des données...</p>
@@ -263,7 +263,7 @@
           }
 
           return (
-            <div className="min-h-screen bg-gradient-to-br from-blue-50 to-red-100 p-4 md:p-8">
+            <div className="min-h-screen bg-gradient-to-br from-red-50 to-red-100 p-4 md:p-8">
               <div className="max-w-4xl mx-auto">
                 {/* Header */}
                 <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-6">
@@ -274,7 +274,7 @@
                     </h1>
                   </div>
                   <p className="text-gray-600 text-sm md:text-base">
-                    Trouvez la classe préparatoire idéale selon son projet professionnel et sa localisation
+                    Trouvez la classe préparatoire idéale selon son projet professionnel et son lieu d'habitation
                   </p>
                   
                   {step > 1 && (
@@ -435,7 +435,7 @@
                           <div className="flex items-center gap-3 mb-6">
                             <div className="text-green-600"><TrendingUpIcon /></div>
                             <h2 className="text-xl font-bold text-gray-900">
-                              {recommendations.length === 1 ? 'Notre recommandation' : 'Nos recommandations'}
+                              {recommendations.length === 1 ? 'Notre recommandation' : 'Les recommandations de Challenges'}
                             </h2>
                           </div>
 
