@@ -281,26 +281,60 @@
   <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-gray-500">
     {selections.projet && (
       <>
-        <span className="font-medium text-red-600">
+        <button 
+          onClick={() => {
+            setSelections({ projet: null, filiere: null, top: null, region: null });
+            setStep(1);
+            setRecommendations([]);
+          }}
+          className="font-medium text-red-600 hover:text-red-800 hover:underline cursor-pointer"
+        >
           {projetOptions.find(p => p.id === selections.projet)?.label}
-        </span>
+        </button>
         <ChevronRightIcon />
       </>
     )}
     {selections.filiere && (
       <>
-        <span className="font-medium text-red-600">{selections.filiere}</span>
+        <button 
+          onClick={() => {
+            setSelections(prev => ({ ...prev, filiere: null, top: null, region: null }));
+            setStep(2);
+            setRecommendations([]);
+          }}
+          className="font-medium text-red-600 hover:text-red-800 hover:underline cursor-pointer"
+        >
+          {selections.filiere}
+        </button>
         <ChevronRightIcon />
       </>
     )}
     {selections.top && (
       <>
-        <span className="font-medium text-red-600">{selections.top}</span>
+        <button 
+          onClick={() => {
+            setSelections(prev => ({ ...prev, top: null, region: null }));
+            setStep(3);
+            setRecommendations([]);
+          }}
+          className="font-medium text-red-600 hover:text-red-800 hover:underline cursor-pointer"
+        >
+          {selections.top}
+        </button>
         <ChevronRightIcon />
       </>
     )}
     {selections.region && (
-      <span className="font-medium text-red-600">{selections.region}</span>
+      <button 
+        onClick={() => {
+          setSelections(prev => ({ ...prev, region: null }));
+          setStep(4);
+          setRecommendations([]);
+        }}
+        className="font-medium text-red-600 hover:text-red-800 hover:underline cursor-pointer"
+      >
+        {selections.region}
+      </button>
     )}
   </div>
 )}
