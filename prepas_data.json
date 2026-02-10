@@ -1,0 +1,2962 @@
+{
+  "ECG": {
+    "Top-3": [
+      {
+        "RANG": 1,
+        "Rang évolution": "+",
+        "Prepa": "Madeleine-Daniélou",
+        "Statut": "privé sous contrat",
+        "VILLE": "RUEIL-MALMAISON",
+        "EFFECTIFS (2E ANNÉE)": 42,
+        "TOTAL INTEGRES": 40,
+        "PART D’INTEGRES (%)": 95.24
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "+",
+        "Prepa": "Louis-le-Grand",
+        "Statut": "public",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 44,
+        "TOTAL INTEGRES": 35,
+        "PART D’INTEGRES (%)": 79.5
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "+",
+        "Prepa": "Notre-Dame-du-Grandchamp",
+        "Statut": "privé sous contrat",
+        "VILLE": "VERSAILLES",
+        "EFFECTIFS (2E ANNÉE)": 126,
+        "TOTAL INTEGRES": 99,
+        "PART D’INTEGRES (%)": 78.57
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "=",
+        "Prepa": "Henri-IV",
+        "Statut": "public",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 85,
+        "TOTAL INTEGRES": 66,
+        "PART D’INTEGRES (%)": 77.64
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "=",
+        "Prepa": "Stanislas",
+        "Statut": "privé sous contrat",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 90,
+        "TOTAL INTEGRES": 69,
+        "PART D’INTEGRES (%)": 76.67
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "-",
+        "Prepa": "Sainte-Geneviève (Ginette)",
+        "Statut": "privé sous contrat",
+        "VILLE": "VERSAILLES",
+        "EFFECTIFS (2E ANNÉE)": 80,
+        "TOTAL INTEGRES": 55,
+        "PART D’INTEGRES (%)": 68.75
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "-",
+        "Prepa": "Sainte-Marie Lyon",
+        "Statut": "privé sous contrat",
+        "VILLE": "LYON",
+        "EFFECTIFS (2E ANNÉE)": 78,
+        "TOTAL INTEGRES": 44,
+        "PART D’INTEGRES (%)": 56.41
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "+",
+        "Prepa": "Saint-Jean-de-Passy",
+        "Statut": "privé sous contrat",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 74,
+        "TOTAL INTEGRES": 37,
+        "PART D’INTEGRES (%)": 50.0
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "-",
+        "Prepa": "Saint-Louis-de-Gonzague",
+        "Statut": "privé sous contrat",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 83,
+        "TOTAL INTEGRES": 41,
+        "PART D’INTEGRES (%)": 49.4
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "+",
+        "Prepa": "Notre-Dame-de-Sainte-Croix",
+        "Statut": "privé sous contrat",
+        "VILLE": "NEUILLY-SUR-SEINE",
+        "EFFECTIFS (2E ANNÉE)": 74,
+        "TOTAL INTEGRES": 31,
+        "PART D’INTEGRES (%)": 41.89
+      },
+      {
+        "RANG": 11,
+        "Rang évolution": "-",
+        "Prepa": "Saint-Louis",
+        "Statut": "public",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 48,
+        "TOTAL INTEGRES": 19,
+        "PART D’INTEGRES (%)": 39.58
+      },
+      {
+        "RANG": 12,
+        "Rang évolution": "+",
+        "Prepa": "Pierre-de-Fermat",
+        "Statut": "public",
+        "VILLE": "TOULOUSE",
+        "EFFECTIFS (2E ANNÉE)": 81,
+        "TOTAL INTEGRES": 31,
+        "PART D’INTEGRES (%)": 38.27
+      },
+      {
+        "RANG": 13,
+        "Rang évolution": "=",
+        "Prepa": "Hoche",
+        "Statut": "public",
+        "VILLE": "VERSAILLES",
+        "EFFECTIFS (2E ANNÉE)": 93,
+        "TOTAL INTEGRES": 35,
+        "PART D’INTEGRES (%)": 37.63
+      },
+      {
+        "RANG": 14,
+        "Rang évolution": "=",
+        "Prepa": "Ipesup",
+        "Statut": "privé hors contrat",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 84,
+        "TOTAL INTEGRES": 30,
+        "PART D’INTEGRES (%)": 35.71
+      },
+      {
+        "RANG": 15,
+        "Rang évolution": "+",
+        "Prepa": "Janson-de-Sailly",
+        "Statut": "public",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 130,
+        "TOTAL INTEGRES": 43,
+        "PART D’INTEGRES (%)": 33.08
+      },
+      {
+        "RANG": 16,
+        "Rang évolution": "-",
+        "Prepa": "La Prépa Autrement",
+        "Statut": "privé hors contrat",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 144,
+        "TOTAL INTEGRES": 46,
+        "PART D’INTEGRES (%)": 31.94
+      },
+      {
+        "RANG": 17,
+        "Rang évolution": "-",
+        "Prepa": "Les Chartreux",
+        "Statut": "privé sous contrat",
+        "VILLE": "LYON",
+        "EFFECTIFS (2E ANNÉE)": 72,
+        "TOTAL INTEGRES": 22,
+        "PART D’INTEGRES (%)": 30.56
+      },
+      {
+        "RANG": 18,
+        "Rang évolution": "+",
+        "Prepa": "Le Parc",
+        "Statut": "public",
+        "VILLE": "LYON",
+        "EFFECTIFS (2E ANNÉE)": 89,
+        "TOTAL INTEGRES": 27,
+        "PART D’INTEGRES (%)": 30.34
+      },
+      {
+        "RANG": 19,
+        "Rang évolution": "=",
+        "Prepa": "Saint-Jean",
+        "Statut": "privé sous contrat",
+        "VILLE": "DOUAI",
+        "EFFECTIFS (2E ANNÉE)": 243,
+        "TOTAL INTEGRES": 68,
+        "PART D’INTEGRES (%)": 27.98
+      },
+      {
+        "RANG": 20,
+        "Rang évolution": "+",
+        "Prepa": "Lakanal",
+        "Statut": "public",
+        "VILLE": "SCEAUX",
+        "EFFECTIFS (2E ANNÉE)": 40,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES (%)": 27.5
+      },
+      {
+        "RANG": 21,
+        "Rang évolution": "N",
+        "Prepa": "Nelson-Mandela (ex-CPGE Vial)",
+        "Statut": "public",
+        "VILLE": "NANTES",
+        "EFFECTIFS (2E ANNÉE)": 44,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES (%)": 25.0
+      },
+      {
+        "RANG": 22,
+        "Rang évolution": "=",
+        "Prepa": "Saint-Michel-de-Picpus",
+        "Statut": "privé sous contrat",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 112,
+        "TOTAL INTEGRES": 25,
+        "PART D’INTEGRES (%)": 22.32
+      },
+      {
+        "RANG": 23,
+        "Rang évolution": "N",
+        "Prepa": "Stanislas",
+        "Statut": "privé sous contrat",
+        "VILLE": "CANNES",
+        "EFFECTIFS (2E ANNÉE)": 43,
+        "TOTAL INTEGRES": 9,
+        "PART D’INTEGRES (%)": 20.93
+      },
+      {
+        "RANG": 23,
+        "Rang évolution": "-",
+        "Prepa": "Michelet",
+        "Statut": "public",
+        "VILLE": "VANVES",
+        "EFFECTIFS (2E ANNÉE)": 43,
+        "TOTAL INTEGRES": 9,
+        "PART D’INTEGRES (%)": 20.93
+      },
+      {
+        "RANG": 25,
+        "Rang évolution": "N",
+        "Prepa": "MyPrepa ",
+        "Statut": "privé hors contrat",
+        "VILLE": "PARIS",
+        "EFFECTIFS (2E ANNÉE)": 63,
+        "TOTAL INTEGRES": 13,
+        "PART D’INTEGRES (%)": 20.63
+      }
+    ],
+    "Top-7": [
+      {
+        "RANG": 1,
+        "Rang évolution": "=",
+        "PREPA": "Madeleine-Daniélou",
+        "Statut": "privé sous contrat",
+        "Ville": "RUEIL-MALMAISON",
+        "EFFECTIFS 2E ANNÉE": 42,
+        "TOTAL INTEGRES": 41,
+        "PART D’INTEGRES (%)": 97.62
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "+",
+        "PREPA": "Notre-Dame-du-Grandchamp",
+        "Statut": "privé sous contrat",
+        "Ville": "VERSAILLES",
+        "EFFECTIFS 2E ANNÉE": 126,
+        "TOTAL INTEGRES": 121,
+        "PART D’INTEGRES (%)": 96.03
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "+",
+        "PREPA": "Henri-IV",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 85,
+        "TOTAL INTEGRES": 80,
+        "PART D’INTEGRES (%)": 94.12
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "+",
+        "PREPA": "Saint-Louis-de-Gonzague",
+        "Statut": "privé sous contrat",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 83,
+        "TOTAL INTEGRES": 75,
+        "PART D’INTEGRES (%)": 90.36
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "+",
+        "PREPA": "Louis-le-Grand",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 44,
+        "TOTAL INTEGRES": 39,
+        "PART D’INTEGRES (%)": 88.64
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "+",
+        "PREPA": "Saint-Jean-de-Passy",
+        "Statut": "privé sous contrat",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 74,
+        "TOTAL INTEGRES": 64,
+        "PART D’INTEGRES (%)": 86.49
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "N",
+        "PREPA": "Ampère",
+        "Statut": "public",
+        "Ville": "LYON",
+        "EFFECTIFS 2E ANNÉE": 113,
+        "TOTAL INTEGRES": 97,
+        "PART D’INTEGRES (%)": 85.84
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "-",
+        "PREPA": "Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 90,
+        "TOTAL INTEGRES": 76,
+        "PART D’INTEGRES (%)": 84.44
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "=",
+        "PREPA": "Les Chartreux",
+        "Statut": "privé sous contrat",
+        "Ville": "LYON",
+        "EFFECTIFS 2E ANNÉE": 72,
+        "TOTAL INTEGRES": 60,
+        "PART D’INTEGRES (%)": 83.33
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "=",
+        "PREPA": "La Prépa Autrement",
+        "Statut": "privé hors contrat",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 144,
+        "TOTAL INTEGRES": 117,
+        "PART D’INTEGRES (%)": 81.25
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "-",
+        "PREPA": "Sainte-Geneviève (Ginette)",
+        "Statut": "privé sous contrat",
+        "Ville": "VERSAILLES",
+        "EFFECTIFS 2E ANNÉE": 80,
+        "TOTAL INTEGRES": 65,
+        "PART D’INTEGRES (%)": 81.25
+      },
+      {
+        "RANG": 12,
+        "Rang évolution": "-",
+        "PREPA": "Sainte-Marie Lyon",
+        "Statut": "privé sous contrat",
+        "Ville": "LYON",
+        "EFFECTIFS 2E ANNÉE": 78,
+        "TOTAL INTEGRES": 63,
+        "PART D’INTEGRES (%)": 80.77
+      },
+      {
+        "RANG": 13,
+        "Rang évolution": "+",
+        "PREPA": "Hoche",
+        "Statut": "public",
+        "Ville": "VERSAILLES",
+        "EFFECTIFS 2E ANNÉE": 93,
+        "TOTAL INTEGRES": 74,
+        "PART D’INTEGRES (%)": 79.57
+      },
+      {
+        "RANG": 14,
+        "Rang évolution": "=",
+        "PREPA": "Notre-Dame-des-Minimes",
+        "Statut": "privé sous contrat",
+        "Ville": "LYON",
+        "EFFECTIFS 2E ANNÉE": 84,
+        "TOTAL INTEGRES": 66,
+        "PART D’INTEGRES (%)": 78.57
+      },
+      {
+        "RANG": 15,
+        "Rang évolution": "-",
+        "PREPA": "Notre-Dame-de-Sainte-Croix",
+        "Statut": "privé sous contrat",
+        "Ville": "NEUILLY-SUR-SEINE",
+        "EFFECTIFS 2E ANNÉE": 74,
+        "TOTAL INTEGRES": 58,
+        "PART D’INTEGRES (%)": 78.38
+      },
+      {
+        "RANG": 16,
+        "Rang évolution": "N",
+        "PREPA": "MyPrepa ",
+        "Statut": "privé hors contrat",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 63,
+        "TOTAL INTEGRES": 48,
+        "PART D’INTEGRES (%)": 76.19
+      },
+      {
+        "RANG": 17,
+        "Rang évolution": "-",
+        "PREPA": "Saint-Louis",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 48,
+        "TOTAL INTEGRES": 36,
+        "PART D’INTEGRES (%)": 75.0
+      },
+      {
+        "RANG": 17,
+        "Rang évolution": "N",
+        "PREPA": "Nelson-Mandela (ex-CPGE Vial)",
+        "Statut": "public",
+        "Ville": "NANTES",
+        "EFFECTIFS 2E ANNÉE": 44,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES (%)": 75.0
+      },
+      {
+        "RANG": 19,
+        "Rang évolution": "=",
+        "PREPA": "Saint-Jean",
+        "Statut": "privé sous contrat",
+        "Ville": "DOUAI",
+        "EFFECTIFS 2E ANNÉE": 243,
+        "TOTAL INTEGRES": 182,
+        "PART D’INTEGRES (%)": 74.9
+      },
+      {
+        "RANG": 20,
+        "Rang évolution": "+",
+        "PREPA": "Saint-Michel-de-Picpus",
+        "Statut": "privé sous contrat",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 112,
+        "TOTAL INTEGRES": 83,
+        "PART D’INTEGRES (%)": 74.11
+      },
+      {
+        "RANG": 21,
+        "Rang évolution": "+",
+        "PREPA": "Ipesup",
+        "Statut": "privé hors contrat",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 84,
+        "TOTAL INTEGRES": 62,
+        "PART D’INTEGRES (%)": 73.81
+      },
+      {
+        "RANG": 22,
+        "Rang évolution": "N",
+        "PREPA": "Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "CANNES",
+        "EFFECTIFS 2E ANNÉE": 43,
+        "TOTAL INTEGRES": 31,
+        "PART D’INTEGRES (%)": 72.09
+      },
+      {
+        "RANG": 23,
+        "Rang évolution": "-",
+        "PREPA": "Pierre-de-Fermat",
+        "Statut": "public",
+        "Ville": "TOULOUSE",
+        "EFFECTIFS 2E ANNÉE": 81,
+        "TOTAL INTEGRES": 58,
+        "PART D’INTEGRES (%)": 71.6
+      },
+      {
+        "RANG": 24,
+        "Rang évolution": "N",
+        "PREPA": "Janson-de-Sailly",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIFS 2E ANNÉE": 130,
+        "TOTAL INTEGRES": 91,
+        "PART D’INTEGRES (%)": 70.0
+      },
+      {
+        "RANG": 25,
+        "Rang évolution": "-",
+        "PREPA": "Chateaubriand",
+        "Statut": "public",
+        "Ville": "RENNES",
+        "EFFECTIFS 2E ANNÉE": 90,
+        "TOTAL INTEGRES": 59,
+        "PART D’INTEGRES (%)": 65.56
+      }
+    ],
+    "Top-15": [
+      {
+        "RANG": 1,
+        "Rang évolution": "N",
+        "PREPA": "Blanche-de-Castille",
+        "Statut": "privé sous contrat",
+        "Ville": "VILLEMOMBLE",
+        "EFFECTIFS": 4,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 100.0
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "N",
+        "PREPA": "Gay-Lussac",
+        "Statut": "public",
+        "Ville": "LIMOGES",
+        "EFFECTIFS": 25,
+        "TOTAL INTEGRES": 24,
+        "PART D’INTEGRES": 96.0
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "N",
+        "PREPA": "Gustave-Flaubert",
+        "Statut": "public",
+        "Ville": "ROUEN",
+        "EFFECTIFS": 47,
+        "TOTAL INTEGRES": 44,
+        "PART D’INTEGRES": 93.62
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "+",
+        "PREPA": "Baimbridge",
+        "Statut": "public",
+        "Ville": "POINTE-À-PITRE (GUADELOUPE)",
+        "EFFECTIFS": 23,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES": 91.3
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "+",
+        "PREPA": "Louis-Barthou",
+        "Statut": "public",
+        "Ville": "PAU",
+        "EFFECTIFS": 22,
+        "TOTAL INTEGRES": 20,
+        "PART D’INTEGRES": 90.9
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "-",
+        "PREPA": "René-Cassin",
+        "Statut": "public",
+        "Ville": "BAYONNE",
+        "EFFECTIFS": 64,
+        "TOTAL INTEGRES": 58,
+        "PART D’INTEGRES": 90.63
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "+",
+        "PREPA": "La Nativité",
+        "Statut": "privé sous contrat",
+        "Ville": "AIX-EN-PROVENCE",
+        "EFFECTIFS": 30,
+        "TOTAL INTEGRES": 27,
+        "PART D’INTEGRES": 90.0
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "+",
+        "PREPA": "Teilhard-de-Chardin",
+        "Statut": "privé sous contrat",
+        "Ville": "SAINT-MAUR-DES-FOSSES",
+        "EFFECTIFS": 42,
+        "TOTAL INTEGRES": 37,
+        "PART D’INTEGRES": 88.1
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "N",
+        "PREPA": "Saint-Charles",
+        "Statut": "public",
+        "Ville": "MARSEILLE",
+        "EFFECTIFS": 24,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES": 87.5
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "+",
+        "PREPA": "Louis-Pergaud",
+        "Statut": "public",
+        "Ville": "BESANÇON",
+        "EFFECTIFS": 24,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES": 87.5
+      },
+      {
+        "RANG": 11,
+        "Rang évolution": "N",
+        "PREPA": "Campus international de Valbonne",
+        "Statut": "public",
+        "Ville": "VALBONNE",
+        "EFFECTIFS": 38,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES": 86.84
+      },
+      {
+        "RANG": 12,
+        "Rang évolution": "+",
+        "PREPA": "Notre-Dame-de-la-Merci",
+        "Statut": "privé sous contrat",
+        "Ville": "MONTPELLIER",
+        "EFFECTIFS": 30,
+        "TOTAL INTEGRES": 26,
+        "PART D’INTEGRES": 86.67
+      },
+      {
+        "RANG": 13,
+        "Rang évolution": "-",
+        "PREPA": "Bellevue",
+        "Statut": "public",
+        "Ville": "FORT-DE-FRANCE (MARTINIQUE)",
+        "EFFECTIFS": 14,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES": 85.71
+      },
+      {
+        "RANG": 14,
+        "Rang évolution": "N",
+        "PREPA": "Saint-Exupéry",
+        "Statut": "public",
+        "Ville": "MANTES-LA-JOLIE",
+        "EFFECTIFS": 13,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES": 84.62
+      },
+      {
+        "RANG": 15,
+        "Rang évolution": "N",
+        "PREPA": "Théophile-Gautier",
+        "Statut": "public",
+        "Ville": "TARBES",
+        "EFFECTIFS": 19,
+        "TOTAL INTEGRES": 16,
+        "PART D’INTEGRES": 84.21
+      },
+      {
+        "RANG": 16,
+        "Rang évolution": "-",
+        "PREPA": "Champollion",
+        "Statut": "public",
+        "Ville": "GRENOBLE",
+        "EFFECTIFS": 81,
+        "TOTAL INTEGRES": 68,
+        "PART D’INTEGRES": 83.96
+      },
+      {
+        "RANG": 17,
+        "Rang évolution": "-",
+        "PREPA": "Ozenne",
+        "Statut": "public",
+        "Ville": "TOULOUSE",
+        "EFFECTIFS": 87,
+        "TOTAL INTEGRES": 73,
+        "PART D’INTEGRES": 83.91
+      },
+      {
+        "RANG": 18,
+        "Rang évolution": "N",
+        "PREPA": "Saint-Vincent-Providence",
+        "Statut": "privé sous contrat",
+        "Ville": "RENNES",
+        "EFFECTIFS": 85,
+        "TOTAL INTEGRES": 71,
+        "PART D’INTEGRES": 83.53
+      },
+      {
+        "RANG": 19,
+        "Rang évolution": "N",
+        "PREPA": "Paul-Cézanne",
+        "Statut": "public",
+        "Ville": "AIX-EN-PROVENCE",
+        "EFFECTIFS": 35,
+        "TOTAL INTEGRES": 29,
+        "PART D’INTEGRES": 82.86
+      },
+      {
+        "RANG": 20,
+        "Rang évolution": "N",
+        "PREPA": "Claude-Louis-Berthollet",
+        "Statut": "public",
+        "Ville": "ANNECY",
+        "EFFECTIFS": 72,
+        "TOTAL INTEGRES": 59,
+        "PART D’INTEGRES": 81.94
+      },
+      {
+        "RANG": 21,
+        "Rang évolution": "N",
+        "PREPA": "Henri-Moissan",
+        "Statut": "public",
+        "Ville": "MEAUX",
+        "EFFECTIFS": 26,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES": 80.77
+      },
+      {
+        "RANG": 22,
+        "Rang évolution": "-",
+        "PREPA": "Clemenceau",
+        "Statut": "public",
+        "Ville": "NANTES",
+        "EFFECTIFS": 41,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES": 80.49
+      },
+      {
+        "RANG": 23,
+        "Rang évolution": "-",
+        "PREPA": "Externat-Chavagnes",
+        "Statut": "privé sous contrat",
+        "Ville": "NANTES",
+        "EFFECTIFS": 30,
+        "TOTAL INTEGRES": 24,
+        "PART D’INTEGRES": 80.0
+      },
+      {
+        "RANG": 24,
+        "Rang évolution": "N",
+        "PREPA": "Kléber",
+        "Statut": "public",
+        "Ville": "STRASBOURG",
+        "EFFECTIFS": 122,
+        "TOTAL INTEGRES": 97,
+        "PART D’INTEGRES": 79.51
+      },
+      {
+        "RANG": 25,
+        "Rang évolution": "N",
+        "PREPA": "Jean-Baptiste-Corot",
+        "Statut": "public",
+        "Ville": "SAVIGNY-SUR-ORGE",
+        "EFFECTIFS": 34,
+        "TOTAL INTEGRES": 27,
+        "PART D’INTEGRES": 79.4
+      }
+    ]
+  },
+  "ECT": {
+    "Top-3": [
+      {
+        "RANG": 1,
+        "Rang évolution": "=",
+        "Prepa": "Notre-Dame-du-Grandchamp",
+        "Statut": "privé sous contrat",
+        "Ville": "VERSAILLES",
+        "EFFECTIF 2E ANNÉE": 33,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES (%)": 33.33
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "=",
+        "Prepa": "Michelet",
+        "Statut": "public",
+        "Ville": "VANVES",
+        "EFFECTIF 2E ANNÉE": 33,
+        "TOTAL INTEGRES": 7,
+        "PART D’INTEGRES (%)": 21.21
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "N",
+        "Prepa": "Ampère",
+        "Statut": "public",
+        "Ville": "LYON",
+        "EFFECTIF 2E ANNÉE": 8,
+        "TOTAL INTEGRES": 1,
+        "PART D’INTEGRES (%)": 12.5
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "=",
+        "Prepa": "Ozenne",
+        "Statut": "public",
+        "Ville": "TOULOUSE",
+        "EFFECTIF 2E ANNÉE": 28,
+        "TOTAL INTEGRES": 2,
+        "PART D’INTEGRES (%)": 7.14
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "+",
+        "Prepa": "Pôle Sup de La Salle-Groupe Saint-Jean",
+        "Statut": "privé sous contrat",
+        "Ville": "RENNES",
+        "EFFECTIF 2E ANNÉE": 14,
+        "TOTAL INTEGRES": 1,
+        "PART D’INTEGRES (%)": 7.14
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "-",
+        "Prepa": "Chevrollier",
+        "Statut": "public",
+        "Ville": "ANGERS",
+        "EFFECTIF 2E ANNÉE": 30,
+        "TOTAL INTEGRES": 2,
+        "PART D’INTEGRES (%)": 6.67
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "N",
+        "Prepa": "Le Castel",
+        "Statut": "public",
+        "Ville": "DIJON",
+        "EFFECTIF 2E ANNÉE": 17,
+        "TOTAL INTEGRES": 1,
+        "PART D’INTEGRES (%)": 5.88
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "+",
+        "Prepa": "Jules-Guesde",
+        "Statut": "public",
+        "Ville": "MONTPELLIER",
+        "EFFECTIF 2E ANNÉE": 36,
+        "TOTAL INTEGRES": 2,
+        "PART D’INTEGRES (%)": 5.55
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "-",
+        "Prepa": "Claude-Bernard",
+        "Statut": "public",
+        "Ville": "VILLEFRANCHE-SUR-SÂONE",
+        "EFFECTIF 2E ANNÉE": 19,
+        "TOTAL INTEGRES": 1,
+        "PART D’INTEGRES (%)": 5.26
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "N",
+        "Prepa": "La Martinière-Duchère",
+        "Statut": "public",
+        "Ville": "LYON",
+        "EFFECTIF 2E ANNÉE": 39,
+        "TOTAL INTEGRES": 2,
+        "PART D’INTEGRES (%)": 5.13
+      }
+    ],
+    "Top-7": [
+      {
+        "RANG": 1,
+        "Rang évolution": "=",
+        "Prepa": "Notre-Dame-du-Grandchamp",
+        "Statut": "privé sous contrat",
+        "Ville": "VERSAILLES",
+        "EFFECTIFS": 33,
+        "TOTAL INTEGRES": 25,
+        "PART D’INTEGRES": 75.76
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "=",
+        "Prepa": "Michelet",
+        "Statut": "public",
+        "Ville": "VANVES",
+        "EFFECTIFS": 33,
+        "TOTAL INTEGRES": 20,
+        "PART D’INTEGRES": 60.61
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "+",
+        "Prepa": "Henri-Moissan",
+        "Statut": "public",
+        "Ville": "MEAUX",
+        "EFFECTIFS": 29,
+        "TOTAL INTEGRES": 15,
+        "PART D’INTEGRES": 51.72
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "-",
+        "Prepa": "Ozenne",
+        "Statut": "public",
+        "Ville": "TOULOUSE",
+        "EFFECTIFS": 28,
+        "TOTAL INTEGRES": 14,
+        "PART D’INTEGRES": 50.0
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "=",
+        "Prepa": "Turgot",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIFS": 35,
+        "TOTAL INTEGRES": 17,
+        "PART D’INTEGRES": 48.57
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "=",
+        "Prepa": "Chevrollier",
+        "Statut": "public",
+        "Ville": "ANGERS",
+        "EFFECTIFS": 30,
+        "TOTAL INTEGRES": 14,
+        "PART D’INTEGRES": 46.67
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "-",
+        "Prepa": "Claude-Bernard",
+        "Statut": "public",
+        "Ville": "VILLEFRANCHE-SUR-SÂONE",
+        "EFFECTIFS": 19,
+        "TOTAL INTEGRES": 6,
+        "PART D’INTEGRES": 31.58
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "+",
+        "Prepa": "La Martinière-Duchère",
+        "Statut": "public",
+        "Ville": "LYON",
+        "EFFECTIFS": 39,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES": 30.77
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "N",
+        "Prepa": "Les Eaux Claires",
+        "Statut": "public",
+        "Ville": "GRENOBLE",
+        "EFFECTIFS": 10,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 30.0
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "N",
+        "Prepa": "Pôle Sup de La Salle-Groupe Saint-Jean",
+        "Statut": "privé sous contrat",
+        "Ville": "RENNES",
+        "EFFECTIFS": 14,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 28.57
+      }
+    ],
+    "Top-15": [
+      {
+        "RANG": 1,
+        "Rang évolution": "+",
+        "Prepa": "Voltaire",
+        "Statut": "public",
+        "Ville": "ORLÉANS",
+        "EFFECTIFS": 23,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES": 91.3
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "+",
+        "Prepa": "Alfred-Kastler",
+        "Statut": "public",
+        "Ville": "CERGY-PONTOISE",
+        "EFFECTIFS": 32,
+        "TOTAL INTEGRES": 27,
+        "PART D’INTEGRES": 84.38
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "N",
+        "Prepa": "Le Rebours",
+        "Statut": "privé sous contrat",
+        "Ville": "PARIS",
+        "EFFECTIFS": 24,
+        "TOTAL INTEGRES": 20,
+        "PART D’INTEGRES": 83.33
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "=",
+        "Prepa": "Pablo-Picasso",
+        "Statut": "public",
+        "Ville": "FONTENAY-SOUS-BOIS",
+        "EFFECTIFS": 23,
+        "TOTAL INTEGRES": 19,
+        "PART D’INTEGRES": 82.61
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "N",
+        "Prepa": "Louis-Pergaud",
+        "Statut": "public",
+        "Ville": "BESANÇON",
+        "EFFECTIFS": 16,
+        "TOTAL INTEGRES": 13,
+        "PART D’INTEGRES": 81.25
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "-",
+        "Prepa": "Parc-de-Vilgenis",
+        "Statut": "public",
+        "Ville": "MASSY",
+        "EFFECTIFS": 19,
+        "TOTAL INTEGRES": 15,
+        "PART D’INTEGRES": 78.94
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "=",
+        "Prepa": "Nicolas-Brémontier",
+        "Statut": "public",
+        "Ville": "BORDEAUX",
+        "EFFECTIFS": 27,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES": 77.78
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "N",
+        "Prepa": "Jules-Guesde",
+        "Statut": "public",
+        "Ville": "MONTPELLIER",
+        "EFFECTIFS": 36,
+        "TOTAL INTEGRES": 28,
+        "PART D’INTEGRES": 77.78
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "N",
+        "Prepa": "Honoré-d'Estienne-d'Orves",
+        "Statut": "public",
+        "Ville": "NICE",
+        "EFFECTIFS": 20,
+        "TOTAL INTEGRES": 15,
+        "PART D’INTEGRES": 75.0
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "-",
+        "Prepa": "Ecole nationale de commerce-Bessières",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIFS": 36,
+        "TOTAL INTEGRES": 27,
+        "PART D’INTEGRES": 75.0
+      }
+    ]
+  },
+  "BL": {
+    "Top-3": [
+      {
+        "RANG": 1,
+        "Rang évolution": "+",
+        "Prepa": "Henri-IV",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIF": 53,
+        "TOTAL INTEGRES": 19,
+        "PART D’INTEGRES": 35.85
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "-",
+        "Prepa": "Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "PARIS",
+        "EFFECTIF": 36,
+        "TOTAL INTEGRES": 7,
+        "PART D’INTEGRES": 19.44
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "+",
+        "Prepa": "Lakanal",
+        "Statut": "public",
+        "Ville": "SCEAUX",
+        "EFFECTIF": 43,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 9.3
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "=",
+        "Prepa": "Sainte-Marie",
+        "Statut": "privé sous contrat",
+        "Ville": "NEUILLY-SUR-SEINE",
+        "EFFECTIF": 47,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 8.51
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "-",
+        "Prepa": "Janson-de-Sailly",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIF": 41,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 7.32
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "+",
+        "Prepa": "Les Chartreux",
+        "Statut": "privé sous contrat",
+        "Ville": "LYON",
+        "EFFECTIF": 37,
+        "TOTAL INTEGRES": 1,
+        "PART D’INTEGRES": 2.7
+      }
+    ],
+    "Top-7": [
+      {
+        "RANG": 1,
+        "Rang évolution": "=",
+        "Prepa": "Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "PARIS",
+        "EFFECTIF": 36,
+        "TOTAL INTEGRES": 16,
+        "PART D’INTEGRES": 44.44
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "+",
+        "Prepa": "Henri-IV",
+        "Statut": "public",
+        "Ville": "PARIS",
+        "EFFECTIF": 53,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES": 39.62
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "N",
+        "Prepa": "Blanche-de-Castille",
+        "Statut": "privé sous contrat",
+        "Ville": "NANTES",
+        "EFFECTIF": 27,
+        "TOTAL INTEGRES": 7,
+        "PART D’INTEGRES": 25.93
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "+",
+        "Prepa": "Notre-Dame-Saint-Sigisbert",
+        "Statut": "privé sous contrat",
+        "Ville": "NANCY",
+        "EFFECTIF": 16,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 25.0
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "-",
+        "Prepa": "Saint-Marc",
+        "Statut": "privé sous contrat",
+        "Ville": "LYON",
+        "EFFECTIF": 24,
+        "TOTAL INTEGRES": 6,
+        "PART D’INTEGRES": 25.0
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "-",
+        "Prepa": "Sainte-Marie",
+        "Statut": "privé sous contrat",
+        "Ville": "NEUILLY-SUR-SEINE",
+        "EFFECTIF": 47,
+        "TOTAL INTEGRES": 10,
+        "PART D’INTEGRES": 21.28
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "+",
+        "Prepa": "Lakanal",
+        "Statut": "public",
+        "Ville": "SCEAUX",
+        "EFFECTIF": 43,
+        "TOTAL INTEGRES": 7,
+        "PART D’INTEGRES": 16.28
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "-",
+        "Prepa": "Les Chartreux",
+        "Statut": "privé sous contrat",
+        "Ville": "LYON",
+        "EFFECTIF": 37,
+        "TOTAL INTEGRES": 6,
+        "PART D’INTEGRES": 16.21
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "N",
+        "Prepa": "Saint-Just",
+        "Statut": "public",
+        "Ville": "LYON",
+        "EFFECTIF": 40,
+        "TOTAL INTEGRES": 5,
+        "PART D’INTEGRES": 12.5
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "N",
+        "Prepa": "Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "CANNES",
+        "EFFECTIF": 32,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 12.5
+      }
+    ],
+    "Top-15": [
+      {
+        "RANG": 1,
+        "Rang évolution": "+",
+        "Prepa": "Levavasseur",
+        "Statut": "privé sous contrat",
+        "Ville": "SAINT-DENIS (LA RÉUNION)",
+        "EFFECTIF": 9,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 33.33
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "N",
+        "Prepa": "Marguerite-Jauzelon",
+        "Statut": "public",
+        "Ville": "SAINT-DENIS (LA RÉUNION)",
+        "EFFECTIF": 29,
+        "TOTAL INTEGRES": 6,
+        "PART D’INTEGRES": 20.69
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "+",
+        "Prepa": "Notre-Dame-de-la-Paix",
+        "Statut": "privé sous contrat",
+        "Ville": "LILLE",
+        "EFFECTIF": 15,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 20.0
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "N",
+        "Prepa": "Jacques-Amyot",
+        "Statut": "public",
+        "Ville": "MELUN",
+        "EFFECTIF": 19,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 15.79
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "=",
+        "Prepa": "Alphonse-Daudet",
+        "Statut": "public",
+        "Ville": "NÎMES",
+        "EFFECTIF": 26,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 11.54
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "N",
+        "Prepa": "Emmanuel-Mounier",
+        "Statut": "public",
+        "Ville": "GRENOBLE",
+        "EFFECTIF": 28,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 10.71
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "N",
+        "Prepa": "Ambroise-Brugière",
+        "Statut": "public",
+        "Ville": "CLERMONT-FERRAND",
+        "EFFECTIF": 31,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 9.68
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "N",
+        "Prepa": "Henri-IV",
+        "Statut": "public",
+        "Ville": "BÉZIERS",
+        "EFFECTIF": 31,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 9.68
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "-",
+        "Prepa": "Fustel-de-Coulanges",
+        "Statut": "public",
+        "Ville": "STRASBOURG",
+        "EFFECTIF": 44,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 9.09
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "N",
+        "Prepa": "Saint-Sernin",
+        "Statut": "public",
+        "Ville": "TOULOUSE",
+        "EFFECTIF": 37,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 8.1
+      }
+    ]
+  },
+  "MP": {
+    "Feuil1": [
+      {
+        "Rang": 1,
+        "Rang évolution": "=",
+        "Prepa": "Sainte-Geneviève (Ginette)",
+        "Statut": "privé sous contrat",
+        "Ville": "Versailles",
+        "EFFECTIFS 2E ANNÉE": 118,
+        "TOTAL INTEGRES": 92,
+        "PART D’INTEGRES (%)": 77.97
+      },
+      {
+        "Rang": 2,
+        "Rang évolution": "+",
+        "Prepa": "Blaise-Pascal",
+        "Statut": "public",
+        "Ville": "Orsay",
+        "EFFECTIFS 2E ANNÉE": 48,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES (%)": 68.8
+      },
+      {
+        "Rang": 3,
+        "Rang évolution": "+",
+        "Prepa": "Hoche",
+        "Statut": "public",
+        "Ville": "Versailles",
+        "EFFECTIFS 2E ANNÉE": 38,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES (%)": 55.26
+      },
+      {
+        "Rang": 4,
+        "Rang évolution": "-",
+        "Prepa": "Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 81,
+        "TOTAL INTEGRES": 44,
+        "PART D’INTEGRES (%)": 54.32
+      },
+      {
+        "Rang": 5,
+        "Rang évolution": "+",
+        "Prepa": "Louis-le-Grand",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 164,
+        "TOTAL INTEGRES": 83,
+        "PART D’INTEGRES (%)": 50.61
+      },
+      {
+        "Rang": 6,
+        "Rang évolution": "-",
+        "Prepa": "Aux Lazaristes-La Salle",
+        "Statut": "privé sous contrat",
+        "Ville": "Lyon",
+        "EFFECTIFS 2E ANNÉE": 25,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES (%)": 48.0
+      },
+      {
+        "Rang": 7,
+        "Rang évolution": "+",
+        "Prepa": "Henri-IV",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 97,
+        "TOTAL INTEGRES": 42,
+        "PART D’INTEGRES (%)": 43.3
+      },
+      {
+        "Rang": 8,
+        "Rang évolution": "+",
+        "Prepa": "Marcelin-Berthelot",
+        "Statut": "public",
+        "Ville": "Saint-Maur-des-Fossés",
+        "EFFECTIFS 2E ANNÉE": 77,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES (%)": 42.86
+      },
+      {
+        "Rang": 9,
+        "Rang évolution": "-",
+        "Prepa": "Le Parc",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "EFFECTIFS 2E ANNÉE": 91,
+        "TOTAL INTEGRES": 38,
+        "PART D’INTEGRES (%)": 41.76
+      },
+      {
+        "Rang": 10,
+        "Rang évolution": "-",
+        "Prepa": "Saint-Louis",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 127,
+        "TOTAL INTEGRES": 47,
+        "PART D’INTEGRES (%)": 37.01
+      },
+      {
+        "Rang": 11,
+        "Rang évolution": "+",
+        "Prepa": "Sainte-Marie",
+        "Statut": "privé sous contrat",
+        "Ville": "Antony",
+        "EFFECTIFS 2E ANNÉE": 30,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES (%)": 36.67
+      },
+      {
+        "Rang": 12,
+        "Rang évolution": "+",
+        "Prepa": "Joffre",
+        "Statut": "public",
+        "Ville": "Montpellier",
+        "EFFECTIFS 2E ANNÉE": 68,
+        "TOTAL INTEGRES": 23,
+        "PART D’INTEGRES (%)": 33.82
+      },
+      {
+        "Rang": 13,
+        "Rang évolution": "-",
+        "Prepa": "Clemenceau",
+        "Statut": "public",
+        "Ville": "Nantes",
+        "EFFECTIFS 2E ANNÉE": 62,
+        "TOTAL INTEGRES": 19,
+        "PART D’INTEGRES (%)": 30.65
+      },
+      {
+        "Rang": 14,
+        "Rang évolution": "+",
+        "Prepa": "Pierre-de-Fermat",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "EFFECTIFS 2E ANNÉE": 84,
+        "TOTAL INTEGRES": 25,
+        "PART D’INTEGRES (%)": 29.76
+      },
+      {
+        "Rang": 15,
+        "Rang évolution": "-",
+        "Prepa": "Louis-Pasteur",
+        "Statut": "public",
+        "Ville": "Neuilly-sur-Seine",
+        "EFFECTIFS 2E ANNÉE": 81,
+        "TOTAL INTEGRES": 24,
+        "PART D’INTEGRES (%)": 29.63
+      },
+      {
+        "Rang": 16,
+        "Rang évolution": "-",
+        "Prepa": "Michelet",
+        "Statut": "public",
+        "Ville": "Vanves",
+        "EFFECTIFS 2E ANNÉE": 38,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES (%)": 28.95
+      },
+      {
+        "Rang": 17,
+        "Rang évolution": "+",
+        "Prepa": "Charlemagne",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 77,
+        "TOTAL INTEGRES": 18,
+        "PART D’INTEGRES (%)": 23.38
+      },
+      {
+        "Rang": 18,
+        "Rang évolution": "+",
+        "Prepa": "La Martinière-Monplaisir",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "EFFECTIFS 2E ANNÉE": 87,
+        "TOTAL INTEGRES": 20,
+        "PART D’INTEGRES (%)": 22.99
+      },
+      {
+        "Rang": 19,
+        "Rang évolution": "N",
+        "Prepa": "Buffon",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 35,
+        "TOTAL INTEGRES": 8,
+        "PART D’INTEGRES (%)": 22.86
+      },
+      {
+        "Rang": 20,
+        "Rang évolution": "N",
+        "Prepa": "Ipesup ",
+        "Statut": "privé hors contrat",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 22,
+        "TOTAL INTEGRES": 5,
+        "PART D’INTEGRES (%)": 22.72
+      },
+      {
+        "Rang": 21,
+        "Rang évolution": "+",
+        "Prepa": "Saint-Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "Nantes",
+        "EFFECTIFS 2E ANNÉE": 38,
+        "TOTAL INTEGRES": 8,
+        "PART D’INTEGRES (%)": 21.05
+      },
+      {
+        "Rang": 22,
+        "Rang évolution": "N",
+        "Prepa": "Janson-de-Sailly",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 120,
+        "TOTAL INTEGRES": 25,
+        "PART D’INTEGRES (%)": 20.83
+      },
+      {
+        "Rang": 23,
+        "Rang évolution": "N",
+        "Prepa": "Condorcet",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS 2E ANNÉE": 68,
+        "TOTAL INTEGRES": 14,
+        "PART D’INTEGRES (%)": 20.59
+      },
+      {
+        "Rang": 24,
+        "Rang évolution": "N",
+        "Prepa": "Chateaubriand",
+        "Statut": "public",
+        "Ville": "Rennes",
+        "EFFECTIFS 2E ANNÉE": 119,
+        "TOTAL INTEGRES": 24,
+        "PART D’INTEGRES (%)": 20.17
+      },
+      {
+        "Rang": 25,
+        "Rang évolution": "N",
+        "Prepa": "Thiers",
+        "Statut": "public",
+        "Ville": "Marseille",
+        "EFFECTIFS 2E ANNÉE": 88,
+        "TOTAL INTEGRES": 16,
+        "PART D’INTEGRES (%)": 18.18
+      }
+    ]
+  },
+  "MPI": {
+    "Feuil1": [
+      {
+        "Rang": 1,
+        "Rang évolution": "+",
+        "Prepa": "Aux Lazaristes-La Salle",
+        "Statut": "privé sous contrat",
+        "Ville": "Lyon",
+        "EFFECTIFS": 18,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES": 66.67
+      },
+      {
+        "Rang": 2,
+        "Rang évolution": "-",
+        "Prepa": "Hoche",
+        "Statut": "public",
+        "Ville": "Versailles",
+        "EFFECTIFS": 42,
+        "TOTAL INTEGRES": 20,
+        "PART D’INTEGRES": 47.62
+      },
+      {
+        "Rang": 3,
+        "Rang évolution": "-",
+        "Prepa": "Louis-le-Grand",
+        "Statut": "public",
+        "Ville": "Paris ",
+        "EFFECTIFS": 40,
+        "TOTAL INTEGRES": 16,
+        "PART D’INTEGRES": 40.0
+      },
+      {
+        "Rang": 4,
+        "Rang évolution": "+",
+        "Prepa": "Le Parc",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "EFFECTIFS": 42,
+        "TOTAL INTEGRES": 15,
+        "PART D’INTEGRES": 35.71
+      },
+      {
+        "Rang": 5,
+        "Rang évolution": "-",
+        "Prepa": "Pierre-de-Fermat",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "EFFECTIFS": 42,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES": 28.57
+      },
+      {
+        "Rang": 6,
+        "Rang évolution": "+",
+        "Prepa": "Janson-de-Sailly",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS": 43,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES": 25.58
+      },
+      {
+        "Rang": 7,
+        "Rang évolution": "-",
+        "Prepa": "Saint-Louis",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS": 41,
+        "TOTAL INTEGRES": 10,
+        "PART D’INTEGRES": 24.39
+      },
+      {
+        "Rang": 7,
+        "Rang évolution": "N",
+        "Prepa": "La Martinière-Monplaisir",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "EFFECTIFS": 41,
+        "TOTAL INTEGRES": 10,
+        "PART D’INTEGRES": 24.39
+      },
+      {
+        "Rang": 9,
+        "Rang évolution": "+",
+        "Prepa": "Thiers",
+        "Statut": "public",
+        "Ville": "Marseille",
+        "EFFECTIFS": 43,
+        "TOTAL INTEGRES": 8,
+        "PART D’INTEGRES": 18.6
+      },
+      {
+        "Rang": 10,
+        "Rang évolution": "-",
+        "Prepa": "Champollion",
+        "Statut": "public",
+        "Ville": "Grenoble",
+        "EFFECTIFS": 30,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 13.33
+      },
+      {
+        "Rang": 11,
+        "Rang évolution": "=",
+        "Prepa": "Fénelon-Sainte-Marie",
+        "Statut": "privé sous contrat",
+        "Ville": "Paris",
+        "EFFECTIFS": 40,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 10.0
+      },
+      {
+        "Rang": 11,
+        "Rang évolution": "-",
+        "Prepa": "Faidherbe",
+        "Statut": "public",
+        "Ville": "Lille",
+        "EFFECTIFS": 40,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 10.0
+      },
+      {
+        "Rang": 13,
+        "Rang évolution": "-",
+        "Prepa": "Clemenceau",
+        "Statut": "public",
+        "Ville": "Nantes",
+        "EFFECTIFS": 43,
+        "TOTAL INTEGRES": 4,
+        "PART D’INTEGRES": 9.3
+      },
+      {
+        "Rang": 14,
+        "Rang évolution": "N",
+        "Prepa": "Henri-Poincaré",
+        "Statut": "public",
+        "Ville": "Nancy",
+        "EFFECTIFS": 37,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 8.1
+      },
+      {
+        "Rang": 15,
+        "Rang évolution": "N",
+        "Prepa": "Paul-Valéry",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIFS": 38,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES": 7.89
+      }
+    ]
+  },
+  "PC": {
+    "Feuil1": [
+      {
+        "RANG": 1,
+        "Rang évolution": "=",
+        "Prepa": "Sainte-Geneviève (Ginette)",
+        "Statut": "privé sous contrat",
+        "Ville": "Versailles",
+        "EFFECTIF 2E ANNÉE": 133,
+        "TOTAL INTEGRES": 84,
+        "PART D’INTEGRES (%)": 63.16
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "=",
+        "Prepa": "Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "Paris ",
+        "EFFECTIF 2E ANNÉE": 95,
+        "TOTAL INTEGRES": 52,
+        "PART D’INTEGRES (%)": 54.74
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "+",
+        "Prepa": "Louis-le-Grand",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF 2E ANNÉE": 131,
+        "TOTAL INTEGRES": 63,
+        "PART D’INTEGRES (%)": 48.09
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "=",
+        "Prepa": "Aux Lazaristes-La Salle",
+        "Statut": "privé sous contrat",
+        "Ville": "Lyon",
+        "EFFECTIF 2E ANNÉE": 42,
+        "TOTAL INTEGRES": 19,
+        "PART D’INTEGRES (%)": 45.24
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "=",
+        "Prepa": "Louis-Pasteur",
+        "Statut": "public",
+        "Ville": "Neuilly-sur-Seine",
+        "EFFECTIF 2E ANNÉE": 83,
+        "TOTAL INTEGRES": 36,
+        "PART D’INTEGRES (%)": 43.37
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "-",
+        "Prepa": "Henri-IV",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF 2E ANNÉE": 48,
+        "TOTAL INTEGRES": 17,
+        "PART D’INTEGRES (%)": 35.42
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "=",
+        "Prepa": "Hoche",
+        "Statut": "public",
+        "Ville": "Versailles",
+        "EFFECTIF 2E ANNÉE": 77,
+        "TOTAL INTEGRES": 24,
+        "PART D’INTEGRES (%)": 31.17
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "+",
+        "Prepa": "Le Parc",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "EFFECTIF 2E ANNÉE": 115,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES (%)": 28.7
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "+",
+        "Prepa": "Pierre-de-Fermat",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "EFFECTIF 2E ANNÉE": 72,
+        "TOTAL INTEGRES": 20,
+        "PART D’INTEGRES (%)": 27.78
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "-",
+        "Prepa": "Michelet",
+        "Statut": "public",
+        "Ville": "Vanves",
+        "EFFECTIF 2E ANNÉE": 40,
+        "TOTAL INTEGRES": 10,
+        "PART D’INTEGRES (%)": 25.0
+      },
+      {
+        "RANG": 11,
+        "Rang évolution": "+",
+        "Prepa": "Thiers",
+        "Statut": "public",
+        "Ville": "Marseille",
+        "EFFECTIF 2E ANNÉE": 91,
+        "TOTAL INTEGRES": 18,
+        "PART D’INTEGRES (%)": 19.78
+      },
+      {
+        "RANG": 12,
+        "Rang évolution": "+",
+        "Prepa": "Saint-Louis",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF 2E ANNÉE": 184,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES (%)": 17.93
+      },
+      {
+        "RANG": 12,
+        "Rang évolution": "-",
+        "Prepa": "Lakanal",
+        "Statut": "public",
+        "Ville": "Sceaux",
+        "EFFECTIF 2E ANNÉE": 84,
+        "TOTAL INTEGRES": 15,
+        "PART D’INTEGRES (%)": 17.86
+      },
+      {
+        "RANG": 14,
+        "Rang évolution": "+",
+        "Prepa": "Masséna",
+        "Statut": "public",
+        "Ville": "Nice",
+        "EFFECTIF 2E ANNÉE": 84,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES (%)": 14.29
+      },
+      {
+        "RANG": 15,
+        "Rang évolution": "+",
+        "Prepa": "Chaptal",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF 2E ANNÉE": 82,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES (%)": 13.41
+      },
+      {
+        "RANG": 16,
+        "Rang évolution": "+",
+        "Prepa": "Blaise-Pascal",
+        "Statut": "public",
+        "Ville": "Clermont-Ferrand",
+        "EFFECTIF 2E ANNÉE": 64,
+        "TOTAL INTEGRES": 8,
+        "PART D’INTEGRES (%)": 12.5
+      },
+      {
+        "RANG": 17,
+        "Rang évolution": "=",
+        "Prepa": "Ipesup",
+        "Statut": "privé hors contrat",
+        "Ville": "Paris",
+        "EFFECTIF 2E ANNÉE": 27,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES (%)": 11.11
+      },
+      {
+        "RANG": 18,
+        "Rang évolution": "-",
+        "Prepa": "Champollion",
+        "Statut": "public",
+        "Ville": "Grenoble",
+        "EFFECTIF 2E ANNÉE": 88,
+        "TOTAL INTEGRES": 9,
+        "PART D’INTEGRES (%)": 10.23
+      },
+      {
+        "RANG": 19,
+        "Rang évolution": "N",
+        "Prepa": "Michel-Montaigne",
+        "Statut": "public",
+        "Ville": "Bordeaux",
+        "EFFECTIF 2E ANNÉE": 79,
+        "TOTAL INTEGRES": 8,
+        "PART D’INTEGRES (%)": 10.13
+      },
+      {
+        "RANG": 20,
+        "Rang évolution": "N",
+        "Prepa": "Joffre",
+        "Statut": "public",
+        "Ville": "Montpellier",
+        "EFFECTIF 2E ANNÉE": 85,
+        "TOTAL INTEGRES": 8,
+        "PART D’INTEGRES (%)": 9.41
+      },
+      {
+        "RANG": 21,
+        "Rang évolution": "-",
+        "Prepa": "Janson-de-Sailly",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF 2E ANNÉE": 120,
+        "TOTAL INTEGRES": 10,
+        "PART D’INTEGRES (%)": 8.33
+      },
+      {
+        "RANG": 22,
+        "Rang évolution": "-",
+        "Prepa": "Chateaubriand",
+        "Statut": "public",
+        "Ville": "Rennes",
+        "EFFECTIF 2E ANNÉE": 73,
+        "TOTAL INTEGRES": 6,
+        "PART D’INTEGRES (%)": 8.22
+      },
+      {
+        "RANG": 23,
+        "Rang évolution": "N",
+        "Prepa": "Blaise-Pascal",
+        "Statut": "public",
+        "Ville": "Orsay",
+        "EFFECTIF 2E ANNÉE": 40,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES (%)": 7.5
+      },
+      {
+        "RANG": 24,
+        "Rang évolution": "N",
+        "Prepa": "Lycée international François-Ier",
+        "Statut": "public",
+        "Ville": "Fontainebleau",
+        "EFFECTIF 2E ANNÉE": 28,
+        "TOTAL INTEGRES": 2,
+        "PART D’INTEGRES (%)": 7.14
+      },
+      {
+        "RANG": 25,
+        "Rang évolution": "N",
+        "Prepa": "Déodat-de-Séverac ",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "EFFECTIF 2E ANNÉE": 43,
+        "TOTAL INTEGRES": 3,
+        "PART D’INTEGRES (%)": 6.98
+      }
+    ]
+  },
+  "PSI": {
+    "Feuil1": [
+      {
+        "RANG": 1,
+        "Rang évolution": "=",
+        "Prepa": "Sainte-Geneviève (Ginette)",
+        "Statut": "privé sous contrat",
+        "Ville": "Versailles",
+        "EFFECTIF": 39,
+        "TOTAL INTEGRES": 34,
+        "PART D’INTEGRES": 87.18
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "=",
+        "Prepa": "Hoche",
+        "Statut": "public",
+        "Ville": "Versailles",
+        "EFFECTIF": 40,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES": 82.5
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "=",
+        "Prepa": "Pierre-de-Fermat",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "EFFECTIF": 46,
+        "TOTAL INTEGRES": 35,
+        "PART D’INTEGRES": 76.09
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "=",
+        "Prepa": "Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "Paris",
+        "EFFECTIF": 94,
+        "TOTAL INTEGRES": 61,
+        "PART D’INTEGRES": 64.89
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "=",
+        "Prepa": "Lakanal",
+        "Statut": "public",
+        "Ville": "Sceaux",
+        "EFFECTIF": 36,
+        "TOTAL INTEGRES": 23,
+        "PART D’INTEGRES": 63.89
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "=",
+        "Prepa": "Louis-le-Grand",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF": 42,
+        "TOTAL INTEGRES": 24,
+        "PART D’INTEGRES": 57.14
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "=",
+        "Prepa": "Aux Lazaristes-La Salle",
+        "Statut": "privé sous contrat",
+        "Ville": "Lyon",
+        "EFFECTIF": 46,
+        "TOTAL INTEGRES": 22,
+        "PART D’INTEGRES": 47.83
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "+",
+        "Prepa": "Le Parc",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "EFFECTIF": 84,
+        "TOTAL INTEGRES": 38,
+        "PART D’INTEGRES": 45.24
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "+",
+        "Prepa": "Fénelon-Sainte-Marie",
+        "Statut": "privé sous contrat",
+        "Ville": "Paris",
+        "EFFECTIF": 39,
+        "TOTAL INTEGRES": 15,
+        "PART D’INTEGRES": 38.46
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "+",
+        "Prepa": "Saint-Louis",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF": 220,
+        "TOTAL INTEGRES": 82,
+        "PART D’INTEGRES": 37.27
+      },
+      {
+        "RANG": 11,
+        "Rang évolution": "-",
+        "Prepa": "Michelet",
+        "Statut": "public",
+        "Ville": "Vanves",
+        "EFFECTIF": 39,
+        "TOTAL INTEGRES": 14,
+        "PART D’INTEGRES": 35.9
+      },
+      {
+        "RANG": 12,
+        "Rang évolution": "+",
+        "Prepa": "Janson-de-Sailly",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF": 91,
+        "TOTAL INTEGRES": 32,
+        "PART D’INTEGRES": 35.16
+      },
+      {
+        "RANG": 13,
+        "Rang évolution": "=",
+        "Prepa": "Blaise-Pascal",
+        "Statut": "public",
+        "Ville": "Orsay",
+        "EFFECTIF": 47,
+        "TOTAL INTEGRES": 16,
+        "PART D’INTEGRES": 34.0
+      },
+      {
+        "RANG": 14,
+        "Rang évolution": "-",
+        "Prepa": "Condorcet",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF": 42,
+        "TOTAL INTEGRES": 13,
+        "PART D’INTEGRES": 30.95
+      },
+      {
+        "RANG": 15,
+        "Rang évolution": "=",
+        "Prepa": "Clemenceau",
+        "Statut": "public",
+        "Ville": "Nantes",
+        "EFFECTIF": 92,
+        "TOTAL INTEGRES": 28,
+        "PART D’INTEGRES": 30.43
+      },
+      {
+        "RANG": 16,
+        "Rang évolution": "N",
+        "Prepa": "Sainte-Marie La Croix",
+        "Statut": "privé sous contrat",
+        "Ville": "Antony",
+        "EFFECTIF": 42,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES": 28.57
+      },
+      {
+        "RANG": 17,
+        "Rang évolution": "+",
+        "Prepa": "Chateaubriand",
+        "Statut": "public",
+        "Ville": "Rennes",
+        "EFFECTIF": 72,
+        "TOTAL INTEGRES": 20,
+        "PART D’INTEGRES": 27.78
+      },
+      {
+        "RANG": 18,
+        "Rang évolution": "-",
+        "Prepa": "Michel-Montaigne",
+        "Statut": "public",
+        "Ville": "Bordeaux",
+        "EFFECTIF": 93,
+        "TOTAL INTEGRES": 25,
+        "PART D’INTEGRES": 26.88
+      },
+      {
+        "RANG": 19,
+        "Rang évolution": "N",
+        "Prepa": "Carnot",
+        "Statut": "public",
+        "Ville": "Dijon",
+        "EFFECTIF": 45,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES": 26.67
+      },
+      {
+        "RANG": 19,
+        "Rang évolution": "N",
+        "Prepa": "Saint-Stanislas",
+        "Statut": "privé sous contrat",
+        "Ville": "Nantes",
+        "EFFECTIF": 45,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES": 26.67
+      },
+      {
+        "RANG": 21,
+        "Rang évolution": "-",
+        "Prepa": "Pierre-Corneille",
+        "Statut": "public",
+        "Ville": "Rouen",
+        "EFFECTIF": 50,
+        "TOTAL INTEGRES": 13,
+        "PART D’INTEGRES": 26.0
+      },
+      {
+        "RANG": 21,
+        "Rang évolution": "N",
+        "Prepa": "Henri-Wallon",
+        "Statut": "public",
+        "Ville": "Valenciennes",
+        "EFFECTIF": 50,
+        "TOTAL INTEGRES": 13,
+        "PART D’INTEGRES": 26.0
+      },
+      {
+        "RANG": 23,
+        "Rang évolution": "N",
+        "Prepa": "Marcelin-Berthelot",
+        "Statut": "public",
+        "Ville": "Saint-Maur-des-Fossés",
+        "EFFECTIF": 85,
+        "TOTAL INTEGRES": 22,
+        "PART D’INTEGRES": 25.88
+      },
+      {
+        "RANG": 24,
+        "Rang évolution": "-",
+        "Prepa": "Champollion",
+        "Statut": "public",
+        "Ville": "Grenoble",
+        "EFFECTIF": 83,
+        "TOTAL INTEGRES": 21,
+        "PART D’INTEGRES": 25.3
+      },
+      {
+        "RANG": 25,
+        "Rang évolution": "N",
+        "Prepa": "Joffre",
+        "Statut": "public",
+        "Ville": "Montpellier",
+        "EFFECTIF": 92,
+        "TOTAL INTEGRES": 22,
+        "PART D’INTEGRES": 23.91
+      }
+    ]
+  },
+  "PT": {
+    "Feuil1": [
+      {
+        "RANG": 1,
+        "Rang évolution": "=",
+        "Prépa": "Sainte-Geneviève (Ginette)",
+        "Statut": "privé sous contrat",
+        "Ville": "Versailles",
+        "EFFECTIF": 37,
+        "TOTAL INTEGRES": 33,
+        "PART D’INTEGRES": 89.19
+      },
+      {
+        "RANG": 2,
+        "Rang évolution": "=",
+        "Prépa": "La Salle-Passy-Buzenval",
+        "Statut": "privé sous contrat",
+        "Ville": "Rueil-Malmaison",
+        "EFFECTIF": 41,
+        "TOTAL INTEGRES": 31,
+        "PART D’INTEGRES": 75.61
+      },
+      {
+        "RANG": 3,
+        "Rang évolution": "+",
+        "Prépa": "Jean-Baptiste-Say",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF": 43,
+        "TOTAL INTEGRES": 28,
+        "PART D’INTEGRES": 65.11
+      },
+      {
+        "RANG": 4,
+        "Rang évolution": "=",
+        "Prépa": "Jules-Ferry",
+        "Statut": "public",
+        "Ville": "Versailles",
+        "EFFECTIF": 94,
+        "TOTAL INTEGRES": 56,
+        "PART D’INTEGRES": 59.57
+      },
+      {
+        "RANG": 5,
+        "Rang évolution": "+",
+        "Prépa": "Isaac-Newton",
+        "Statut": "public",
+        "Ville": "Clichy",
+        "EFFECTIF": 42,
+        "TOTAL INTEGRES": 25,
+        "PART D’INTEGRES": 59.52
+      },
+      {
+        "RANG": 6,
+        "Rang évolution": "+",
+        "Prépa": "Vauvenargues",
+        "Statut": "public",
+        "Ville": "Aix-en-Provence",
+        "EFFECTIF": 83,
+        "TOTAL INTEGRES": 45,
+        "PART D’INTEGRES": 54.21
+      },
+      {
+        "RANG": 7,
+        "Rang évolution": "+",
+        "Prépa": "Gustave-Eiffel",
+        "Statut": "public",
+        "Ville": "Bordeaux",
+        "EFFECTIF": 92,
+        "TOTAL INTEGRES": 47,
+        "PART D’INTEGRES": 51.09
+      },
+      {
+        "RANG": 8,
+        "Rang évolution": "-",
+        "Prépa": "Louis-Lachenal ",
+        "Statut": "public",
+        "Ville": "Argonay",
+        "EFFECTIF": 38,
+        "TOTAL INTEGRES": 19,
+        "PART D’INTEGRES": 50.0
+      },
+      {
+        "RANG": 9,
+        "Rang évolution": "+",
+        "Prépa": "Joliot-Curie",
+        "Statut": "public",
+        "Ville": "Rennes",
+        "EFFECTIF": 39,
+        "TOTAL INTEGRES": 17,
+        "PART D’INTEGRES": 43.59
+      },
+      {
+        "RANG": 10,
+        "Rang évolution": "N",
+        "Prépa": "Jean-Mermoz",
+        "Statut": "public",
+        "Ville": "Montpellier",
+        "EFFECTIF": 38,
+        "TOTAL INTEGRES": 16,
+        "PART D’INTEGRES": 42.11
+      },
+      {
+        "RANG": 11,
+        "Rang évolution": "+",
+        "Prépa": "Chevrollier",
+        "Statut": "public",
+        "Ville": "Angers",
+        "EFFECTIF": 40,
+        "TOTAL INTEGRES": 15,
+        "PART D’INTEGRES": 37.5
+      },
+      {
+        "RANG": 12,
+        "Rang évolution": "+",
+        "Prépa": "Marie-Curie",
+        "Statut": "public",
+        "Ville": "Nogent-sur-Oise",
+        "EFFECTIF": 39,
+        "TOTAL INTEGRES": 14,
+        "PART D’INTEGRES": 35.9
+      },
+      {
+        "RANG": 12,
+        "Rang évolution": "+",
+        "Prépa": "Déodat-de-Séverac",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "EFFECTIF": 39,
+        "TOTAL INTEGRES": 14,
+        "PART D’INTEGRES": 35.9
+      },
+      {
+        "RANG": 14,
+        "Rang évolution": "+",
+        "Prépa": "Raspail",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF": 82,
+        "TOTAL INTEGRES": 29,
+        "PART D’INTEGRES": 35.37
+      },
+      {
+        "RANG": 15,
+        "Rang évolution": "-",
+        "Prépa": "Henri-Loritz",
+        "Statut": "public",
+        "Ville": "Nancy",
+        "EFFECTIF": 35,
+        "TOTAL INTEGRES": 12,
+        "PART D’INTEGRES": 34.29
+      },
+      {
+        "RANG": 16,
+        "Rang évolution": "-",
+        "Prépa": "Eugène-Livet",
+        "Statut": "public",
+        "Ville": "Nantes",
+        "EFFECTIF": 87,
+        "TOTAL INTEGRES": 29,
+        "PART D’INTEGRES": 33.33
+      },
+      {
+        "RANG": 16,
+        "Rang évolution": "-",
+        "Prépa": "Cachan",
+        "Statut": "public",
+        "Ville": "Cachan",
+        "EFFECTIF": 45,
+        "TOTAL INTEGRES": 15,
+        "PART D’INTEGRES": 33.33
+      },
+      {
+        "RANG": 18,
+        "Rang évolution": "+",
+        "Prépa": "La Martinière-Monplaisir",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "EFFECTIF": 79,
+        "TOTAL INTEGRES": 25,
+        "PART D’INTEGRES": 31.65
+      },
+      {
+        "RANG": 19,
+        "Rang évolution": "N",
+        "Prépa": "Turgot",
+        "Statut": "public",
+        "Ville": "Limoges",
+        "EFFECTIF": 33,
+        "TOTAL INTEGRES": 10,
+        "PART D’INTEGRES": 30.3
+      },
+      {
+        "RANG": 20,
+        "Rang évolution": "N",
+        "Prépa": "Rouvière",
+        "Statut": "public",
+        "Ville": "Toulon",
+        "EFFECTIF": 31,
+        "TOTAL INTEGRES": 9,
+        "PART D’INTEGRES": 29.03
+      },
+      {
+        "RANG": 20,
+        "Rang évolution": "-",
+        "Prépa": "Chaptal",
+        "Statut": "public",
+        "Ville": "Paris",
+        "EFFECTIF": 38,
+        "TOTAL INTEGRES": 11,
+        "PART D’INTEGRES": 28.95
+      },
+      {
+        "RANG": 22,
+        "Rang évolution": "N",
+        "Prépa": "Jean-Perrin",
+        "Statut": "public",
+        "Ville": "Marseille",
+        "EFFECTIF": 85,
+        "TOTAL INTEGRES": 24,
+        "PART D’INTEGRES": 28.24
+      },
+      {
+        "RANG": 23,
+        "Rang évolution": "N",
+        "Prépa": "La Prat's",
+        "Statut": "public",
+        "Ville": "Cluny",
+        "EFFECTIF": 18,
+        "TOTAL INTEGRES": 5,
+        "PART D’INTEGRES": 27.78
+      },
+      {
+        "RANG": 24,
+        "Rang évolution": "N",
+        "Prépa": "Blaise-Pascal",
+        "Statut": "public",
+        "Ville": "Rouen",
+        "EFFECTIF": 33,
+        "TOTAL INTEGRES": 9,
+        "PART D’INTEGRES": 27.28
+      },
+      {
+        "RANG": 25,
+        "Rang évolution": "-",
+        "Prépa": "Touchard-Washington",
+        "Statut": "public",
+        "Ville": "Le Mans",
+        "EFFECTIF": 23,
+        "TOTAL INTEGRES": 6,
+        "PART D’INTEGRES": 26.08
+      }
+    ]
+  },
+  "BCPST": {
+    "Top-5 agro": [
+      {
+        "RANG": 1,
+        "Etablissement": "Sainte-Geneviève (Ginette)",
+        "Statut": "privé sous contrat",
+        "Ville": "Versailles",
+        "Effectifs 2e année": 40,
+        "Total intégrés": 26,
+        "Part d'intégrés (en %)": 65.0
+      },
+      {
+        "RANG": 2,
+        "Etablissement": "Henri-IV",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectifs 2e année": 44,
+        "Total intégrés": 20,
+        "Part d'intégrés (en %)": 45.5
+      },
+      {
+        "RANG": 3,
+        "Etablissement": "Louis-Pasteur-Marmilhat",
+        "Statut": "public",
+        "Ville": "Lempdes",
+        "Effectifs 2e année": 27,
+        "Total intégrés": 12,
+        "Part d'intégrés (en %)": 44.4
+      },
+      {
+        "RANG": 4,
+        "Etablissement": "Saint-Louis",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectifs 2e année": 131,
+        "Total intégrés": 53,
+        "Part d'intégrés (en %)": 40.5
+      },
+      {
+        "RANG": 5,
+        "Etablissement": "Joffre",
+        "Statut": "public",
+        "Ville": "Montpellier",
+        "Effectifs 2e année": 37,
+        "Total intégrés": 14,
+        "Part d'intégrés (en %)": 37.8
+      },
+      {
+        "RANG": 6,
+        "Etablissement": "Fénelon",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectifs 2e année": 46,
+        "Total intégrés": 16,
+        "Part d'intégrés (en %)": 34.8
+      },
+      {
+        "RANG": 7,
+        "Etablissement": "Lakanal",
+        "Statut": "public",
+        "Ville": "Sceaux",
+        "Effectifs 2e année": 85,
+        "Total intégrés": 29,
+        "Part d'intégrés (en %)": 34.1
+      },
+      {
+        "RANG": 8,
+        "Etablissement": "Jean-Baptiste-Say",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectifs 2e année": 37,
+        "Total intégrés": 11,
+        "Part d'intégrés (en %)": 29.7
+      },
+      {
+        "RANG": 9,
+        "Etablissement": "Janson-de-Sailly",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectifs 2e année": 82,
+        "Total intégrés": 24,
+        "Part d'intégrés (en %)": 29.3
+      },
+      {
+        "RANG": 10,
+        "Etablissement": "Jean-Rostand",
+        "Statut": "public",
+        "Ville": "Strasbourg",
+        "Effectifs 2e année": 38,
+        "Total intégrés": 11,
+        "Part d'intégrés (en %)": 29.0
+      },
+      {
+        "RANG": 11,
+        "Etablissement": "Carnot",
+        "Statut": "public",
+        "Ville": "Dijon",
+        "Effectifs 2e année": 37,
+        "Total intégrés": 10,
+        "Part d'intégrés (en %)": 27.0
+      },
+      {
+        "RANG": 12,
+        "Etablissement": "Hoche",
+        "Statut": "public",
+        "Ville": "Versailles",
+        "Effectifs 2e année": 82,
+        "Total intégrés": 22,
+        "Part d'intégrés (en %)": 26.8
+      },
+      {
+        "RANG": 13,
+        "Etablissement": "Le Parc",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "Effectifs 2e année": 139,
+        "Total intégrés": 35,
+        "Part d'intégrés (en %)": 25.2
+      },
+      {
+        "RANG": 14,
+        "Etablissement": "Pierre-de-Fermat",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "Effectifs 2e année": 91,
+        "Total intégrés": 21,
+        "Part d'intégrés (en %)": 23.1
+      },
+      {
+        "RANG": 14,
+        "Etablissement": "Georges-Clemenceau",
+        "Statut": "public",
+        "Ville": "Reims",
+        "Effectifs 2e année": 39,
+        "Total intégrés": 9,
+        "Part d'intégrés (en %)": 23.1
+      },
+      {
+        "RANG": 14,
+        "Etablissement": "Pierre-Gilles-de-Gennes",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectifs 2e année": 26,
+        "Total intégrés": 6,
+        "Part d'intégrés (en %)": 23.1
+      },
+      {
+        "RANG": 17,
+        "Etablissement": "Champollion",
+        "Statut": "public",
+        "Ville": "Grenoble",
+        "Effectifs 2e année": 87,
+        "Total intégrés": 20,
+        "Part d'intégrés (en %)": 23.0
+      },
+      {
+        "RANG": 18,
+        "Etablissement": "Lycée agricole d'Auzeville",
+        "Statut": "public",
+        "Ville": "Castanet-Tolosan",
+        "Effectifs 2e année": 35,
+        "Total intégrés": 8,
+        "Part d'intégrés (en %)": 22.9
+      },
+      {
+        "RANG": 19,
+        "Etablissement": "Chaptal",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectifs 2e année": 77,
+        "Total intégrés": 17,
+        "Part d'intégrés (en %)": 22.1
+      },
+      {
+        "RANG": 20,
+        "Etablissement": "Clemenceau",
+        "Statut": "public",
+        "Ville": "Nantes",
+        "Effectifs 2e année": 80,
+        "Total intégrés": 16,
+        "Part d'intégrés (en %)": 20.0
+      },
+      {
+        "RANG": 20,
+        "Etablissement": "Ozenne",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "Effectifs 2e année": 45,
+        "Total intégrés": 9,
+        "Part d'intégrés (en %)": 20.0
+      },
+      {
+        "RANG": 22,
+        "Etablissement": "Pierre-Corneille",
+        "Statut": "public",
+        "Ville": "Rouen",
+        "Effectifs 2e année": 48,
+        "Total intégrés": 9,
+        "Part d'intégrés (en %)": 18.8
+      },
+      {
+        "RANG": 23,
+        "Etablissement": "Thiers",
+        "Statut": "public",
+        "Ville": "Marseille",
+        "Effectifs 2e année": 118,
+        "Total intégrés": 20,
+        "Part d'intégrés (en %)": 17.0
+      },
+      {
+        "RANG": 24,
+        "Etablissement": "Albert-Châtelet",
+        "Statut": "public",
+        "Ville": "Douai",
+        "Effectifs 2e année": 36,
+        "Total intégrés": 6,
+        "Part d'intégrés (en %)": 16.7
+      },
+      {
+        "RANG": 25,
+        "Etablissement": "Malherbe",
+        "Statut": "public",
+        "Ville": "Caen",
+        "Effectifs 2e année": 84,
+        "Total intégrés": 13,
+        "Part d'intégrés (en %)": 15.5
+      }
+    ],
+    "Top-4 véto": [
+      {
+        "Rang": 1,
+        "Etablissement": "Lycée agricole d'Auzeville",
+        "Statut": "public",
+        "Ville": "Castanet-Tolosan",
+        "Effectif": 35,
+        "Total intégrés": 11,
+        "Part d'intégrés (en %)": 31.4
+      },
+      {
+        "Rang": 2,
+        "Etablissement": "Descartes",
+        "Statut": "public",
+        "Ville": "Tours",
+        "Effectif": 35,
+        "Total intégrés": 8,
+        "Part d'intégrés (en %)": 22.9
+      },
+      {
+        "Rang": 3,
+        "Etablissement": "Saint-Louis",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectif": 131,
+        "Total intégrés": 28,
+        "Part d'intégrés (en %)": 21.4
+      },
+      {
+        "Rang": 4,
+        "Etablissement": "Hoche",
+        "Statut": "public",
+        "Ville": "Versailles",
+        "Effectif": 82,
+        "Total intégrés": 17,
+        "Part d'intégrés (en %)": 20.7
+      },
+      {
+        "Rang": 5,
+        "Etablissement": "Le Parc",
+        "Statut": "public",
+        "Ville": "Lyon",
+        "Effectif": 139,
+        "Total intégrés": 27,
+        "Part d'intégrés (en %)": 19.4
+      },
+      {
+        "Rang": 6,
+        "Etablissement": "Ozenne",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "Effectif": 45,
+        "Total intégrés": 8,
+        "Part d'intégrés (en %)": 17.8
+      },
+      {
+        "Rang": 7,
+        "Etablissement": "Lycée agricole Le Fresne",
+        "Statut": "public",
+        "Ville": "Sainte-Gemmes-sur-Loire",
+        "Effectif": 30,
+        "Total intégrés": 5,
+        "Part d'intégrés (en %)": 16.7
+      },
+      {
+        "Rang": 8,
+        "Etablissement": "Joffre",
+        "Statut": "public",
+        "Ville": "Montpellier",
+        "Effectif": 37,
+        "Total intégrés": 6,
+        "Part d'intégrés (en %)": 16.2
+      },
+      {
+        "Rang": 9,
+        "Etablissement": "Pierre-de-Fermat",
+        "Statut": "public",
+        "Ville": "Toulouse",
+        "Effectif": 91,
+        "Total intégrés": 14,
+        "Part d'intégrés (en %)": 15.4
+      },
+      {
+        "Rang": 9,
+        "Etablissement": "Georges-Clemenceau",
+        "Statut": "public",
+        "Ville": "Reims",
+        "Effectif": 39,
+        "Total intégrés": 6,
+        "Part d'intégrés (en %)": 15.4
+      },
+      {
+        "Rang": 11,
+        "Etablissement": "Clemenceau",
+        "Statut": "public",
+        "Ville": "Nantes",
+        "Effectif": 80,
+        "Total intégrés": 12,
+        "Part d'intégrés (en %)": 15.0
+      },
+      {
+        "Rang": 12,
+        "Etablissement": "Champollion",
+        "Statut": "public",
+        "Ville": "Grenoble",
+        "Effectif": 87,
+        "Total intégrés": 13,
+        "Part d'intégrés (en %)": 14.9
+      },
+      {
+        "Rang": 13,
+        "Etablissement": "Louis-Pasteur-Marmilhat",
+        "Statut": "public",
+        "Ville": "Lempdes",
+        "Effectif": 27,
+        "Total intégrés": 4,
+        "Part d'intégrés (en %)": 14.8
+      },
+      {
+        "Rang": 14,
+        "Etablissement": "Pierre-Corneille",
+        "Statut": "public",
+        "Ville": "Rouen",
+        "Effectif": 48,
+        "Total intégrés": 7,
+        "Part d'intégrés (en %)": 14.6
+      },
+      {
+        "Rang": 15,
+        "Etablissement": "Carnot",
+        "Statut": "public",
+        "Ville": "Dijon",
+        "Effectif": 37,
+        "Total intégrés": 5,
+        "Part d'intégrés (en %)": 13.5
+      },
+      {
+        "Rang": 16,
+        "Etablissement": "Jean-Rostand",
+        "Statut": "public",
+        "Ville": "Strasbourg",
+        "Effectif": 38,
+        "Total intégrés": 4,
+        "Part d'intégrés (en %)": 10.5
+      },
+      {
+        "Rang": 17,
+        "Etablissement": "Lakanal",
+        "Statut": "public",
+        "Ville": "Sceaux",
+        "Effectif": 85,
+        "Total intégrés": 8,
+        "Part d'intégrés (en %)": 9.4
+      },
+      {
+        "Rang": 18,
+        "Etablissement": "Pothier",
+        "Statut": "public",
+        "Ville": "Orléans",
+        "Effectif": 34,
+        "Total intégrés": 3,
+        "Part d'intégrés (en %)": 8.8
+      },
+      {
+        "Rang": 19,
+        "Etablissement": "Marcelin-Berthelot",
+        "Statut": "public",
+        "Ville": "Saint-Maur-des-Fossés",
+        "Effectif": 115,
+        "Total intégrés": 10,
+        "Part d'intégrés (en %)": 8.7
+      },
+      {
+        "Rang": 20,
+        "Etablissement": "Blaise-Pascal",
+        "Statut": "public",
+        "Ville": "Clermont-Ferrand",
+        "Effectif": 35,
+        "Total intégrés": 3,
+        "Part d'intégrés (en %)": 8.6
+      },
+      {
+        "Rang": 21,
+        "Etablissement": "Assomption-Sup Bellevue",
+        "Statut": "privé sous contrat",
+        "Ville": "Lyon",
+        "Effectif": 47,
+        "Total intégrés": 4,
+        "Part d'intégrés (en %)": 8.5
+      },
+      {
+        "Rang": 22,
+        "Etablissement": "Chateaubriand",
+        "Statut": "public",
+        "Ville": "Rennes",
+        "Effectif": 107,
+        "Total intégrés": 8,
+        "Part d'intégrés (en %)": 7.5
+      },
+      {
+        "Rang": 23,
+        "Etablissement": "Henri-IV",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectif": 44,
+        "Total intégrés": 3,
+        "Part d'intégrés (en %)": 6.8
+      },
+      {
+        "Rang": 23,
+        "Etablissement": "Thiers",
+        "Statut": "public",
+        "Ville": "Marseille",
+        "Effectif": 118,
+        "Total intégrés": 8,
+        "Part d'intégrés (en %)": 6.8
+      },
+      {
+        "Rang": 25,
+        "Etablissement": "Janson-de-Sailly",
+        "Statut": "public",
+        "Ville": "Paris",
+        "Effectif": 82,
+        "Total intégrés": 5,
+        "Part d'intégrés (en %)": 6.1
+      }
+    ]
+  }
+}

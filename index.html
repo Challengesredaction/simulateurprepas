@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulateur Prépas - Challenges</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        // Données des prépas embarquées directement
+        const PREPAS_DATA = null; // Sera chargé dynamiquement
+
+        const REGIONS = {
+          "Île-de-France": ["PARIS", "VERSAILLES", "NEUILLY", "RUEIL", "SCEAUX", "VANVES", "BOULOGNE", "COURBEVOIE", "SAINT-GERMAIN", "SÈVRES", "SAINT-CLOUD", "NANTERRE", "CRÉTEIL", "IVRY", "VINCENNES", "MASSY"],
+          "Auvergne-Rhône-Alpes": ["LYON", "GRENOBLE", "CLERMONT-FERRAND", "VILLEURBANNE", "SAINT-ÉTIENNE", "ANNECY"],
+          "Provence-Alpes-Côte d'Azur": ["MARSEILLE", "NICE", "TOULON", "AIX-EN-PROVENCE", "CANNES", "GRASSE"],
+          "Occitanie": ["TOULOUSE", "MONTPELLIER", "PERPIGNAN", "NÎMES", "BÉZIERS", "ALBI"],
+          "Nouvelle-Aquitaine": ["BORDEAUX", "LIMOGES", "POITIERS", "LA ROCHELLE", "PAU", "BAYONNE", "ANGOULÊME"],
+          "Grand Est": ["STRASBOURG", "REIMS", "METZ", "NANCY", "MULHOUSE", "ÉPINAL"],
+          "Hauts-de-France": ["LILLE", "AMIENS", "ARRAS", "DOUAI", "VALENCIENNES", "DUNKERQUE"],
+          "Normandie": ["ROUEN", "CAEN", "LE HAVRE", "ÉVREUX"],
+          "Bretagne": ["RENNES", "BREST", "LORIENT", "VANNES", "SAINT-BRIEUC"],
+          "Pays de la Loire": ["NANTES", "ANGERS", "LE MANS", "LA ROCHE-SUR-YON"],
+          "Centre-Val de Loire": ["ORLÉANS", "TOURS", "BLOIS", "BOURGES"],
+          "Bourgogne-Franche-Comté": ["DIJON", "BESANÇON", "AUXERRE"],
+          "Corse": ["AJACCIO", "BASTIA"]
+        };
+
+        // Icônes SVG inline
+        const SchoolIcon = () => (
+          <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+          </svg>
+        );
+
+        const ChevronRightIcon = () => (
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        );
+
+        const MapPinIcon = () => (
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+        );
+
+        const TargetIcon = () => (
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        );
+
+        const TrendingUpIcon = () => (
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+          </svg>
+        );
+
+        const SimulateurPrepas = () => {
+          const [step, setStep] = useState(1);
+          const [selections, setSelections] = useState({
+            projet: null,
+            filiere: null,
+            top: null,
+            region: null
+          });
+          const [prepasData, setPrepasData] = useState({});
+          const [loading, setLoading] = useState(true);
+          const [recommendations, setRecommendations] = useState([]);
+
+          useEffect(() => {
+            // Charger les données depuis le fichier JSON externe
+            fetch('./prepas_data.json')
+              .then(response => response.json())
+              .then(data => {
+                setPrepasData(data);
+                setLoading(false);
+              })
+              .catch(error => {
+                console.error('Erreur chargement données:', error);
+                setLoading(false);
+              });
+          }, []);
+
+          const projetOptions = [
+            { id: 'commerce', label: 'École de commerce', icon: '💼' },
+            { id: 'ingenieur', label: "École d'ingénieur", icon: '⚙️' },
+            { id: 'agro-veto', label: 'École agro/véto', icon: '🌾' }
+          ];
+
+          const filiereOptions = {
+            commerce: [
+              { id: 'ECG', label: 'ECG (voie générale)', desc: 'Après bac général' },
+              { id: 'ECT', label: 'ECT (voie technologique)', desc: 'Après bac STMG' },
+              { id: 'BL', label: 'BL (Lettres et sciences sociales)', desc: 'Profil littéraire' }
+            ],
+            ingenieur: [
+              { id: 'MP', label: 'MP (Maths-Physique)', desc: 'Profil maths fort' },
+              { id: 'MPI', label: 'MPI (Maths-Physique-Info)', desc: 'Avec informatique' },
+              { id: 'PC', label: 'PC (Physique-Chimie)', desc: 'Profil physique-chimie' },
+              { id: 'PSI', label: "PSI (Physique-Sciences de l'ingénieur)", desc: 'Profil équilibré' },
+              { id: 'PT', label: 'PT (Physique-Technologie)', desc: 'Après STI2D ou SI' }
+            ],
+            'agro-veto': [
+              { id: 'BCPST-agro', label: "BCPST - Écoles d'agronomie", desc: "Top 5 écoles d'agro" },
+              { id: 'BCPST-veto', label: 'BCPST - Écoles vétérinaires', desc: 'Top 4 écoles véto' }
+            ]
+          };
+
+          const topOptions = {
+            commerce: [
+              { id: 'Top-3', label: 'Top 3', desc: 'HEC, ESSEC, ESCP' },
+              { id: 'Top-7', label: 'Top 7', desc: '+ emlyon, EDHEC, Audencia, Skema' },
+              { id: 'Top-15', label: 'Top 15', desc: 'Élargir aux 15 meilleures' }
+            ],
+            'agro-veto': [
+              { id: 'Top-5 agro', label: 'Top 5 agro', desc: 'AgroParisTech, Agro Rennes...' },
+              { id: 'Top-4 véto', label: 'Top 4 véto', desc: 'ENV Alfort, Lyon, Nantes, Toulouse' }
+            ]
+          };
+
+          const handleSelect = (category, value) => {
+            setSelections(prev => ({ ...prev, [category]: value }));
+            
+            if (category === 'projet') {
+              setSelections({ projet: value, filiere: null, top: null, region: null });
+              setStep(2);
+            } else if (category === 'filiere') {
+              setSelections(prev => ({ ...prev, filiere: value, top: null, region: null }));
+              
+              if (['MP', 'MPI', 'PC', 'PSI', 'PT'].includes(value)) {
+                setStep(4);
+              } else {
+                setStep(3);
+              }
+            } else if (category === 'top') {
+              setStep(4);
+            } else if (category === 'region') {
+              calculateRecommendations(value);
+            }
+          };
+
+          const normalizePrepaData = (row) => {
+            const normalized = {
+              rang: null,
+              prepa: null,
+              ville: null,
+              effectif: null,
+              totalIntegres: null,
+              partIntegres: null,
+              statut: null
+            };
+
+            Object.keys(row).forEach(key => {
+              const keyLower = key.toLowerCase().trim();
+              const value = row[key];
+
+              if ((keyLower === 'rang' || keyLower.includes('rang')) && !keyLower.includes('évolution')) {
+                normalized.rang = value;
+              } else if (keyLower === 'prepa' || keyLower === 'prépa' || keyLower === 'etablissement') {
+                normalized.prepa = value;
+              } else if (keyLower === 'ville') {
+                normalized.ville = value;
+              } else if (keyLower.includes('effectif')) {
+                normalized.effectif = value;
+              } else if (keyLower.includes('total') && keyLower.includes('intégr')) {
+                normalized.totalIntegres = value;
+              } else if (keyLower.includes('part') && keyLower.includes('intégr')) {
+                normalized.partIntegres = value;
+              } else if (keyLower === 'statut') {
+                normalized.statut = value;
+              }
+            });
+
+            return normalized;
+          };
+
+          const calculateRecommendations = (region) => {
+            const { projet, filiere, top } = selections;
+            
+            let dataToUse = [];
+            let sheetName = '';
+
+            if (projet === 'commerce') {
+              sheetName = top;
+              dataToUse = prepasData[filiere]?.[sheetName] || [];
+            } else if (projet === 'ingenieur') {
+              sheetName = 'Feuil1';
+              dataToUse = prepasData[filiere]?.[sheetName] || [];
+            } else if (projet === 'agro-veto') {
+              if (filiere === 'BCPST-agro') {
+                sheetName = 'Top-5 agro';
+              } else {
+                sheetName = 'Top-4 véto';
+              }
+              dataToUse = prepasData['BCPST']?.[sheetName] || [];
+            }
+
+            const normalizedData = dataToUse.map(row => normalizePrepaData(row));
+
+            const villesRegion = REGIONS[region] || [];
+            const prepasRegion = normalizedData.filter(prepa => {
+              if (!prepa.ville) return false;
+              
+              const villePrepa = String(prepa.ville).toUpperCase().trim();
+              const match = villesRegion.some(ville => {
+                return villePrepa.includes(ville) || ville.includes(villePrepa);
+              });
+              
+              return match;
+            });
+
+            prepasRegion.sort((a, b) => (a.rang || 999) - (b.rang || 999));
+
+            let finalRecos = [];
+            if (prepasRegion.length === 0) {
+              const sorted = [...normalizedData].sort((a, b) => (a.rang || 999) - (b.rang || 999));
+              finalRecos = sorted.slice(0, 2);
+            } else if (prepasRegion.length === 1) {
+              finalRecos = [prepasRegion[0]];
+            } else {
+              const first = prepasRegion[0];
+              const second = prepasRegion[1];
+              
+              const ecart = (first.partIntegres || 0) - (second.partIntegres || 0);
+              
+              if (ecart > 15) {
+                finalRecos = [first];
+              } else {
+                finalRecos = prepasRegion.slice(0, 2);
+              }
+            }
+
+            setRecommendations(finalRecos);
+            setStep(5);
+          };
+
+          const resetSimulator = () => {
+            setStep(1);
+            setSelections({ projet: null, filiere: null, top: null, region: null });
+            setRecommendations([]);
+          };
+
+          if (loading) {
+            return (
+              <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
+                <div className="bg-white rounded-2xl shadow-xl p-8 text-center">
+                  <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
+                  <p className="text-gray-600">Chargement des données...</p>
+                </div>
+              </div>
+            );
+          }
+
+          return (
+            <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8">
+              <div className="max-w-4xl mx-auto">
+                {/* Header */}
+                <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 mb-6">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="text-indigo-600"><SchoolIcon /></div>
+                    <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
+                      Quelle prépa pour votre enfant ?
+                    </h1>
+                  </div>
+                  <p className="text-gray-600 text-sm md:text-base">
+                    Trouvez la classe préparatoire idéale selon son projet professionnel et sa localisation
+                  </p>
+                  
+                  {step > 1 && (
+                    <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-gray-500">
+                      {selections.projet && (
+                        <>
+                          <span className="font-medium text-indigo-600">
+                            {projetOptions.find(p => p.id === selections.projet)?.label}
+                          </span>
+                          <ChevronRightIcon />
+                        </>
+                      )}
+                      {selections.filiere && (
+                        <>
+                          <span className="font-medium text-indigo-600">{selections.filiere}</span>
+                          <ChevronRightIcon />
+                        </>
+                      )}
+                      {selections.top && (
+                        <>
+                          <span className="font-medium text-indigo-600">{selections.top}</span>
+                          <ChevronRightIcon />
+                        </>
+                      )}
+                      {selections.region && (
+                        <span className="font-medium text-indigo-600">{selections.region}</span>
+                      )}
+                    </div>
+                  )}
+                </div>
+
+                {/* Step 1: Choix du projet */}
+                {step === 1 && (
+                  <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8">
+                    <h2 className="text-xl font-bold text-gray-900 mb-6">
+                      Quel type d'école vise-t-il/elle ?
+                    </h2>
+                    <div className="grid md:grid-cols-3 gap-4">
+                      {projetOptions.map(option => (
+                        <button
+                          key={option.id}
+                          onClick={() => handleSelect('projet', option.id)}
+                          className="p-6 border-2 border-gray-200 rounded-xl hover:border-indigo-500 hover:bg-indigo-50 transition-all group text-center"
+                        >
+                          <div className="text-4xl mb-3">{option.icon}</div>
+                          <div className="font-semibold text-gray-900 group-hover:text-indigo-600">
+                            {option.label}
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Step 2: Choix de la filière */}
+                {step === 2 && selections.projet && (
+                  <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8">
+                    <h2 className="text-xl font-bold text-gray-900 mb-6">
+                      Quelle filière de prépa ?
+                    </h2>
+                    <div className="grid gap-4">
+                      {filiereOptions[selections.projet]?.map(option => (
+                        <button
+                          key={option.id}
+                          onClick={() => handleSelect('filiere', option.id)}
+                          className="p-5 border-2 border-gray-200 rounded-xl hover:border-indigo-500 hover:bg-indigo-50 transition-all group text-left"
+                        >
+                          <div className="font-semibold text-gray-900 group-hover:text-indigo-600 mb-1">
+                            {option.label}
+                          </div>
+                          <div className="text-sm text-gray-500">{option.desc}</div>
+                        </button>
+                      ))}
+                    </div>
+                    <button
+                      onClick={() => setStep(1)}
+                      className="mt-6 text-indigo-600 hover:text-indigo-700 text-sm font-medium"
+                    >
+                      ← Retour
+                    </button>
+                  </div>
+                )}
+
+                {/* Step 3: Choix du top */}
+                {step === 3 && selections.filiere && (
+                  <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8">
+                    <h2 className="text-xl font-bold text-gray-900 mb-6">
+                      Quel niveau d'ambition ?
+                    </h2>
+                    <div className="grid gap-4">
+                      {(selections.projet === 'commerce' 
+                        ? topOptions.commerce 
+                        : selections.filiere === 'BCPST-agro' 
+                          ? [topOptions['agro-veto'][0]]
+                          : [topOptions['agro-veto'][1]]
+                      ).map(option => (
+                        <button
+                          key={option.id}
+                          onClick={() => handleSelect('top', option.id)}
+                          className="p-5 border-2 border-gray-200 rounded-xl hover:border-indigo-500 hover:bg-indigo-50 transition-all group text-left"
+                        >
+                          <div className="flex items-center gap-3 mb-1">
+                            <div className="text-indigo-600"><TargetIcon /></div>
+                            <div className="font-semibold text-gray-900 group-hover:text-indigo-600">
+                              {option.label}
+                            </div>
+                          </div>
+                          <div className="text-sm text-gray-500">{option.desc}</div>
+                        </button>
+                      ))}
+                    </div>
+                    <button
+                      onClick={() => setStep(2)}
+                      className="mt-6 text-indigo-600 hover:text-indigo-700 text-sm font-medium"
+                    >
+                      ← Retour
+                    </button>
+                  </div>
+                )}
+
+                {/* Step 4: Choix de la région */}
+                {step === 4 && (
+                  <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8">
+                    <h2 className="text-xl font-bold text-gray-900 mb-6">
+                      Dans quelle région ?
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-3 max-h-96 overflow-y-auto">
+                      {Object.keys(REGIONS).map(region => (
+                        <button
+                          key={region}
+                          onClick={() => handleSelect('region', region)}
+                          className="p-4 border-2 border-gray-200 rounded-xl hover:border-indigo-500 hover:bg-indigo-50 transition-all group text-left"
+                        >
+                          <div className="flex items-center gap-3">
+                            <div className="text-indigo-600"><MapPinIcon /></div>
+                            <div className="font-semibold text-gray-900 group-hover:text-indigo-600">
+                              {region}
+                            </div>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                    <button
+                      onClick={() => setStep(['MP', 'MPI', 'PC', 'PSI', 'PT'].includes(selections.filiere) ? 2 : 3)}
+                      className="mt-6 text-indigo-600 hover:text-indigo-700 text-sm font-medium"
+                    >
+                      ← Retour
+                    </button>
+                  </div>
+                )}
+
+                {/* Step 5: Recommandations */}
+                {step === 5 && (
+                  <>
+                    {recommendations.length > 0 ? (
+                      <div className="space-y-6">
+                        <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8">
+                          <div className="flex items-center gap-3 mb-6">
+                            <div className="text-green-600"><TrendingUpIcon /></div>
+                            <h2 className="text-xl font-bold text-gray-900">
+                              {recommendations.length === 1 ? 'Notre recommandation' : 'Nos recommandations'}
+                            </h2>
+                          </div>
+
+                          {recommendations.map((prepa, index) => (
+                            <div
+                              key={index}
+                              className={`${index > 0 ? 'mt-6 pt-6 border-t border-gray-200' : ''}`}
+                            >
+                              <div className="flex items-start justify-between mb-4">
+                                <div>
+                                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                                    {prepa.prepa}
+                                  </h3>
+                                  <div className="flex items-center gap-3 text-sm text-gray-600">
+                                    <span className="flex items-center gap-1">
+                                      <div className="w-4 h-4"><MapPinIcon /></div>
+                                      {prepa.ville}
+                                    </span>
+                                    {prepa.statut && (
+                                      <span className="px-2 py-1 bg-gray-100 rounded">
+                                        {prepa.statut}
+                                      </span>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="text-right">
+                                  <div className="text-sm text-gray-500 mb-1">Rang national</div>
+                                  <div className="text-3xl font-bold text-indigo-600">
+                                    #{prepa.rang}
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div className="bg-indigo-50 rounded-xl p-5 mb-4">
+                                <p className="text-gray-700 leading-relaxed">
+                                  {recommendations.length === 1 && index === 0 ? (
+                                    <>
+                                      <strong>Le choix évident dans votre région.</strong> Avec un taux d'intégration de{' '}
+                                      <strong className="text-indigo-600">{prepa.partIntegres}%</strong>, cette prépa se détache 
+                                      nettement du reste du classement régional. Sur les {prepa.effectif} élèves de la promotion, 
+                                      <strong> {prepa.totalIntegres} ont intégré</strong> les écoles ciblées — un résultat 
+                                      qui reflète à la fois l'excellence de l'encadrement et la qualité de la préparation aux concours.
+                                    </>
+                                  ) : index === 0 ? (
+                                    <>
+                                      <strong>La meilleure option de votre région.</strong> Premier du classement régional, 
+                                      cet établissement affiche un taux d'intégration de{' '}
+                                      <strong className="text-indigo-600">{prepa.partIntegres}%</strong>. Concrètement, 
+                                      <strong> {prepa.totalIntegres} élèves sur {prepa.effectif}</strong> ont décroché 
+                                      une place dans les écoles visées. Un environnement exigeant qui maximise les chances de réussite.
+                                    </>
+                                  ) : (
+                                    <>
+                                      <strong>L'alternative solide.</strong> Avec{' '}
+                                      <strong className="text-indigo-600">{prepa.partIntegres}%</strong> de taux d'intégration 
+                                      (<strong>{prepa.totalIntegres} admis sur {prepa.effectif} élèves</strong>), cette prépa 
+                                      constitue une option de premier plan dans la région. Les résultats sont au rendez-vous et 
+                                      l'écart avec la première reste mesuré, ce qui en fait un choix stratégique.
+                                    </>
+                                  )}
+                                </p>
+                              </div>
+
+                              <div className="grid grid-cols-3 gap-4">
+                                <div className="bg-gray-50 rounded-lg p-4 text-center">
+                                  <div className="text-2xl font-bold text-gray-900">
+                                    {prepa.partIntegres}%
+                                  </div>
+                                  <div className="text-xs text-gray-500 mt-1">Taux d'intégration</div>
+                                </div>
+                                <div className="bg-gray-50 rounded-lg p-4 text-center">
+                                  <div className="text-2xl font-bold text-gray-900">
+                                    {prepa.totalIntegres}
+                                  </div>
+                                  <div className="text-xs text-gray-500 mt-1">Élèves intégrés</div>
+                                </div>
+                                <div className="bg-gray-50 rounded-lg p-4 text-center">
+                                  <div className="text-2xl font-bold text-gray-900">
+                                    {prepa.effectif}
+                                  </div>
+                                  <div className="text-xs text-gray-500 mt-1">Effectif total</div>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+
+                        <div className="text-center">
+                          <button
+                            onClick={resetSimulator}
+                            className="px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors font-medium"
+                          >
+                            Faire une nouvelle recherche
+                          </button>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 text-center">
+                        <p className="text-gray-600 mb-4">
+                          Aucune prépa correspondant à vos critères dans cette région.
+                        </p>
+                        <button
+                          onClick={() => setStep(4)}
+                          className="px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors font-medium"
+                        >
+                          Choisir une autre région
+                        </button>
+                      </div>
+                    )}
+                  </>
+                )}
+              </div>
+
+              <div className="max-w-4xl mx-auto mt-8 text-center text-sm text-gray-500">
+                <p>Source : Classement Challenges 2026 des classes préparatoires</p>
+              </div>
+            </div>
+          );
+        };
+
+        ReactDOM.render(<SimulateurPrepas />, document.getElementById('root'));
+    </script>
+</body>
+</html>
