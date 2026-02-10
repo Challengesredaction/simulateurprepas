@@ -473,17 +473,15 @@
                                 <p className="text-gray-700 leading-relaxed">
                                   {recommendations.length === 1 && index === 0 ? (
                                     <>
-                                      <strong>Le choix évident dans votre région.</strong> Avec un taux d'intégration de{' '}
-                                      <strong className="text-red-600">{prepa.partIntegres}%</strong>, cette prépa se détache 
-                                      nettement du reste du classement régional. Sur les {prepa.effectif} élèves de la promotion, 
-                                      <strong> {prepa.totalIntegres} ont intégré</strong> les écoles ciblées.
+                                      <strong>Il s'agit de la meilleure classe préparatoire de votre région.</strong> Cet établissement affiche un taux d'intégration de{' '}
+                                      <strong className="text-red-600">{prepa.partIntegres}%</strong>. Concrètement, 
+                                      <strong> {prepa.totalIntegres} élèves sur {prepa.effectif}</strong> ont intégré les écoles visées à la rentrée dernière.
                                     </>
                                   ) : index === 0 ? (
                                     <>
                                       <strong>Il s'agit de la meilleure classe préparatoire de votre région.</strong> Cet établissement affiche un taux d'intégration de{' '}
                                       <strong className="text-red-600">{prepa.partIntegres}%</strong>. Concrètement, 
-                                      <strong> {prepa.totalIntegres} élèves sur {prepa.effectif}</strong> ont décroché 
-                                      une place dans les écoles visées à la rentrée dernière.
+                                      <strong> {prepa.totalIntegres} élèves sur {prepa.effectif}</strong> ont intégré les écoles visées à la rentrée dernière.
                                     </>
                                   ) : (
                                     <>
