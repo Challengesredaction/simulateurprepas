@@ -281,7 +281,7 @@
   <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-gray-500">
     {selections.projet && (
       <>
-        <span className="font-medium text-indigo-600">
+        <span className="font-medium text-red-600">
           {projetOptions.find(p => p.id === selections.projet)?.label}
         </span>
         <ChevronRightIcon />
@@ -289,18 +289,18 @@
     )}
     {selections.filiere && (
       <>
-        <span className="font-medium text-indigo-600">{selections.filiere}</span>
+        <span className="font-medium text-red-600">{selections.filiere}</span>
         <ChevronRightIcon />
       </>
     )}
     {selections.top && (
       <>
-        <span className="font-medium text-indigo-600">{selections.top}</span>
+        <span className="font-medium text-red-600">{selections.top}</span>
         <ChevronRightIcon />
       </>
     )}
     {selections.region && (
-      <span className="font-medium text-indigo-600">{selections.region}</span>
+      <span className="font-medium text-red-600">{selections.region}</span>
     )}
   </div>
 )}
