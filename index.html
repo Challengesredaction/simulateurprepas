@@ -480,18 +480,16 @@
                                     </>
                                   ) : index === 0 ? (
                                     <>
-                                      <strong>La meilleure option de votre région.</strong> Premier du classement régional, 
-                                      cet établissement affiche un taux d'intégration de{' '}
+                                      <strong>Il s'agit de la meilleure classe préparatoire de votre région.</strong> Cet établissement affiche un taux d'intégration de{' '}
                                       <strong className="text-red-600">{prepa.partIntegres}%</strong>. Concrètement, 
                                       <strong> {prepa.totalIntegres} élèves sur {prepa.effectif}</strong> ont décroché 
-                                      une place dans les écoles visées.
+                                      une place dans les écoles visées à la rentrée dernière.
                                     </>
                                   ) : (
                                     <>
-                                      <strong>Une autre alternative solide.</strong> Avec{' '}
-                                      <strong className="text-red-600">{prepa.partIntegres}%</strong> de taux d'intégration 
-                                      (<strong>{prepa.totalIntegres} admis sur {prepa.effectif} élèves</strong>), cette prépa 
-                                      constitue un très bon plan B dans la région.
+                                      <strong>Il s'agit de la meilleure alternative</strong>, puisque cet établissement a un taux d'intégration de {' '}
+                                      <strong className="text-red-600">{prepa.partIntegres}%</strong>. Soit 
+                                      <strong>{prepa.totalIntegres} admis sur {prepa.effectif} élèves</strong>).
                                     </>
                                   )}
                                 </p>
