@@ -173,10 +173,10 @@
                 normalized.ville = value;
               } else if (keyLower.includes('effectif')) {
                 normalized.effectif = value;
-              } else if (keyLower.includes('total') && keyLower.includes('intégr')) {
-                normalized.totalIntegres = value;
-              } else if (keyLower.includes('part') && keyLower.includes('intégr')) {
-                normalized.partIntegres = value;
+              } else if (keyLower.includes('total') && (keyLower.includes('intégr') || keyLower.includes('integr'))) {
+  normalized.totalIntegres = value;
+} else if (keyLower.includes('part') && (keyLower.includes('intégr') || keyLower.includes('integr'))) {
+  normalized.partIntegres = value;
               } else if (keyLower === 'statut') {
                 normalized.statut = value;
               }
